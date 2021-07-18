@@ -61,6 +61,8 @@
 
 .content_category .active a {
     color: #ffce32 !important;
+    display: block;
+    position: relative;
 }
 .content_category .active a::after{
     content: '';
@@ -204,7 +206,7 @@
 .prod_list li .kcal{
     color: #ffc300;
     font-size: 18px;
-    font-family: 'font_sw';
+    font-family: 'sw_f';
     font-weight: bold;
     display: block;
     letter-spacing: -0.05em;
