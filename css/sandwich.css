@@ -165,9 +165,10 @@
     width: 70px;
     height: 30px;
     line-height: 30px;
-    font-family: 'noto_m';
+    font-family: 'sw_f';
     font-size: 13px;
     margin-top: 10px;
+    z-index: 3;
 } 
 
 .prod_list li .img{
@@ -207,7 +208,6 @@
     color: #ffc300;
     font-size: 18px;
     font-family: 'sw_f';
-    font-weight: bold;
     display: block;
     letter-spacing: -0.05em;
 }

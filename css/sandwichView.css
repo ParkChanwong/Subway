@@ -4,6 +4,7 @@
     min-width: 1170px;
 }
 .content_category {
+    position: absolute;
     width: 100%;
     min-width: 1170px;
 }
@@ -17,8 +18,7 @@
     bottom: 0;
     width: 100%;
     height: 1px;
-    background-color: #fff;
-    opacity: 0.1;
+    background-color: #e5e5e5;
 }
 .content_category li {
     padding-left: 24px;
@@ -53,6 +53,8 @@
 
 .content_category .active a {
     color: #009223 !important;
+    display: block;
+    position: relative;
 }
 .content_category .active a::after{
     content: '';
@@ -62,4 +64,8 @@
     height: 4px;
     bottom: 0;
     left: 0;
+}
+
+.menuView_wrap{
+    padding-top: 139px ;
 }
