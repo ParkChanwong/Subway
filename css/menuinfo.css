@@ -31,6 +31,22 @@
     padding-left: 24px;
     margin-left: 21px;
     display: inline-block;
+    position: relative;
+}
+
+.content_category li::after{
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color: #dddddd;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    opacity: 0.2;
+}
+.content_category li:first-child::after{
+    display: none;
 }
 
 .content_category li a {
@@ -40,12 +56,13 @@
     line-height:60px;
     font-size:16px;
     letter-spacing:-0.08em;
-    position:relative;
 }
 
 .content_category .active a {
     color: #ffce32 !important;
 }
+
+
 
 .sandwich {
     background: url(/images/menuinfo_images/Sandwich/img_visual_sandwich.jpg) 50% 0 no-repeat;
@@ -58,7 +75,7 @@
 
 .sandwich h2{
     font-size: 70px;
-    font-family: 'noto_b';
+    font-family: 'sw_f';
     padding: 104px 0 21px 0;
 }
 
@@ -76,6 +93,7 @@
 }
 .prod_tab li {
     display: inline-block;
+    position: relative;
 }
 .prod_tab li a{
     font-family: 'noto_m';
@@ -88,7 +106,17 @@
     padding: 0 24px;
 }
 .prod_tab li a::after{
-    content: ' ';
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 33px;
+    width: 1px;
+    height: 15px;
+    background-color: #dddddd; 
+}
+
+.prod_tab li:first-child a::after{
+    display: none;
 }
 .prod_tab ul{
     font-size: 0;
@@ -156,7 +184,8 @@
 .prod_list li .eng{
     color: #666666;
     font-size: 16px;
-    font-family: 'noto_l';
+    font-family: 'sw_s';
+    font-weight: bold;
     display: block;
     margin: 0 0 5px;
     letter-spacing: -0.06em;
