@@ -84,8 +84,8 @@
     border-bottom-right-radius: 50px;
 }
 
-.eventList_category ul .active {
-}
+/* .eventList_category ul .active {
+} */
 
 .eventList_category ul .active a {
     background-color: #58006c;
