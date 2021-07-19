@@ -296,5 +296,155 @@
     font-size: 16px;
     height: 69px;
     text-align: center;
-    border-bottom: 1px solid #009223;
+    border-bottom: 2px solid #009223;
+}
+.Nutrition_content table td{
+    color: #292929;
+    font-size: 16px;
+    height: 69px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.board_wrap .board_notice li{
+    color: #999;
+    font-size: 13px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.button_wrap{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.button_wrap .btn{
+    background-color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+}
+
+.button_wrap .btn span{
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.three_fresh{
+    margin: 97px 0 121px;
+}
+
+.three_fresh .fresh_header{
+    margin: 0 auto;
+    width: 1170px;
+    position: relative;
+}
+
+.three_fresh .fresh_header p{
+    color: #292929;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.three_fresh .fresh_header h3{
+    font-family: 'sw_f';
+    font-weight: bold;
+    color: #ffc300;
+    font-size: 50px;
+    letter-spacing: -0.02em;
+    line-height: 50px;
+}
+
+.three_fresh .fresh_header h3 span{
+    color: #009223;
+    font-size: 50px;
+}
+
+.three_fresh .fresh_content{
+    margin-top: 60px;
+    position: relative;
+}
+
+.three_fresh .fresh_content ul li{
+    width: 370px;
+    height: 390px;
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.three_fresh .fresh_content ul li .img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 320px;
+}
+
+.three_fresh .fresh_content ul li .img img{
+    width: 100%;
+    height: 100%;
+} 
+
+.three_fresh .fresh_content ul li .notice{
+    position: absolute;
+    background-color: #ffffff;
+    top: 210px;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    padding: 24px 0 0 28px;
+}
+
+.three_fresh .fresh_content ul li .num{
+    position: absolute;
+    right: 6px;
+    top: 0px;
+    font-family: 'sw_f';
+    color: #f6f6f6;
+    font-size: 80px;
+}
+.three_fresh .fresh_content ul li .title{
+    color: #292929;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+.three_fresh .fresh_content ul li .text{
+    color: #999999;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    margin-top: 18px;
+    padding-top: 18px;
+    position: relative;
+    text-align: left;
+}
+.three_fresh .fresh_content ul li .text::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 4px;
+    background-color: #ffc300;
+}
+
+.list_btn_wrap{
+    background-color: #f6f6f6;
+    padding: 40px 0 60px;
+}
+
+.list_btn_wrap .list_btn{
+    width: 170px;
+    position: relative;
+    margin: 0 auto;
 }
