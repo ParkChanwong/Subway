@@ -1,3 +1,7 @@
+#container{
+    font-family: sw_s;
+}
+
 .content_wrap{
     text-align: center;
     width: 100%;
@@ -68,4 +72,73 @@
 
 .menuView_wrap{
     padding-top: 139px ;
+}
+
+.menuView_wrap .menu_header{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 1170px;
+}
+.menuView_wrap .menu_header .prod_category{
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+.menuView_wrap .menu_header .prod_category a{
+    display: none;
+    text-decoration: none;
+    font-family: 'noto_m';
+    color: #bbbbbb;
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    margin: 0 12px;
+}
+.menuView_wrap .menu_header .prod_category .active{
+    color: #009223;
+    display: inline-block !important;
+}
+.menuView_wrap .menu_header .prod_category .plus_btn{
+    background: url(/images/menuinfo_images/etc/icon_category.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.menuView_wrap .menu_header .prod_category .plus_btn:hover{
+    background-position:100% 0
+}
+
+.menuView_wrap .menu_header .name{
+    color: #292929;
+    font-size: 50px;
+    padding-bottom: 11px;
+    letter-spacing: -0.055em;
+    font-weight: normal;
+}
+.menuView_wrap .menu_header ul li{
+    display: inline-block;
+
+}
+
+.menuView_wrap .menu_header .eng{
+    color: #999999;
+    font-size: 16px;
+}
+
+
+.menuView_wrap .menu_header ul .kcal{
+    color: #292929;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-left: 17px;
+    position: relative;
+}
+.menuView_wrap .menu_header ul .kcal::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 1px;
+    height: 15px;
+    background-color: #dddddd;
 }
