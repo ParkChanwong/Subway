@@ -170,6 +170,9 @@
     font-size: 13px;
     margin-top: 10px;
     z-index: 3;
+    position: absolute;
+    left: 0;
+    top: 0;
 } 
 
 .prod_list li .img{
@@ -221,6 +224,7 @@
     top: 0;
     left: 0;
     display: none;
+    z-index: 3;
 }
 
 .prod_list li:hover .g_bg{
