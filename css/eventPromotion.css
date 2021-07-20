@@ -1,3 +1,115 @@
+.eventPromotion_cate_wrap {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 100;
+}
+
+.eventPromotion_cate_wrap ul {
+    width: 1170px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.eventPromotion_cate_wrap ul li {
+    display: inline-block;
+    position: relative;
+    padding-left: 24px;
+    margin-left: 24px;
+}
+
+.eventPromotion_cate_wrap ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 4px;
+    height: 4px;
+    background-color: #dddddd;
+    border-radius: 50px;
+}
+
+.eventPromotion_cate_wrap ul li:nth-of-type(1):after {
+    display: none;
+}
+
+.eventPromotion_cate_wrap ul li a {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    color: #999999;
+    line-height: 60px;
+    font-family: 'noto_m';
+}
+
+.eventPromotion_cate_wrap ul .active a {
+    color: #009223;
+}
+
+.eventPromotion_cate_wrap ul .active a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #009223;
+}
+
+.title_slide_content .eventPromotion_title {
+    font-size: 40px;
+    font-family: "noto_dl";
+    letter-spacing: -0.007em;
+    color: #292929;
+    text-align: center;
+    padding: 134px 0 80px 0;
+}
+
+.event_slide_wrap {
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 67px;
+}
+
+.event_slide_wrap .event_slide {
+    width: 100%;
+    height: 450px;
+}
+
+.event_slide div {
+    height: 400px;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0 !important;
+}
+
+.slick-dots {
+    bottom: -3px !important;
+}
+
+.slick-dots li {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 5px !important;
+}
+
+.slick-dots li button {
+    width: 10px !important;
+    height: 10px !important;
+    padding: 0 !important;
+}
+
+.slick-dots li button:before {
+    width: 10px !important;
+    height: 10px !important;
+    line-height: 13px !important;
+}
+
 .eventList_wrap {
     width: 100%;
     height: auto;
