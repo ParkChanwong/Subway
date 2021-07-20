@@ -14,6 +14,7 @@
     position: absolute;
     width: 100%;
     min-width: 1170px;
+    z-index: 10;
 }
 .content_category ul {
     font-size: 0;
@@ -74,28 +75,45 @@
     bottom: 0;
     left: 0;
 }
-
-
-
 .choppedSalad {
     background-color: #0d9133;
     width: 100%;
     min-width: 1170px;
     height: 380px;
-    font-family: 'noto_m';
+    font-family: 'sw_f';
     color: white;
+}
+.choppedSalad .img1{
+    background: url(/images/menuinfo_images/Chopped_Salad/img_visual_salad02.jpg) no-repeat;
+    width: 600px;
+    height: 308px;
+    position:absolute;
+    top: 150px;
+    left: 0;
+}
+.choppedSalad .img2{
+    background: url(/images/menuinfo_images/Chopped_Salad/img_visual_salad01.jpg) no-repeat;
+    width: 669px;
+    height: 380px;
+    position: absolute;
+    right: 0;
+    top: 155px;
 }
 
 .choppedSalad h2{
     font-size: 70px;
     font-family: 'sw_f';
     padding: 104px 0 21px 0;
+    position: relative;
+    z-index: 10;
 }
 
 .choppedSalad > p{
     font-size: 16px;
     line-height: 26px;
     letter-spacing: -0.04em;
+    position: relative;
+    z-index: 10;
 }
 
 .prod_tab{
@@ -103,6 +121,7 @@
     width: 1170px;
     margin: -40px auto 0;
     background: url(/images/menuinfo_images/Sandwich/bg_tabbox.png) no-repeat;
+    position: relative;
 }
 .prod_tab li {
     display: inline-block;
@@ -145,6 +164,30 @@
     margin: 0 auto;
     padding-bottom: 130px;
 }
+.prod_list .prod_choppedSalad_new .new_label{
+    background-color: #ffc300;
+    color: white;
+    display: block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    font-family: 'sw_f';
+    font-size: 13px;
+    margin-top: 10px;
+    z-index: 3;
+} 
+.prod_list .prod_choppedSalad_new .hot_label{
+    background-color: #A80000;
+    color: white;
+    display: block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    font-family: 'sw_f';
+    font-size: 13px;
+    margin-top: 10px;
+    z-index: 3;
+} 
 
 .prod_list ul{
     margin: -30px 0 0 -30px;
@@ -159,18 +202,6 @@
     text-align: center;
     cursor: pointer;
 }
-.prod_list .prod_choppedSalad_new .new_label{
-    background-color: #ffc300;
-    color: white;
-    display: block;
-    width: 70px;
-    height: 30px;
-    line-height: 30px;
-    font-family: 'sw_f';
-    font-size: 13px;
-    margin-top: 10px;
-    z-index: 3;
-} 
 
 .prod_list li .img{
     width: 270px;
@@ -199,7 +230,6 @@
     color: #666666;
     font-size: 16px;
     font-family: 'sw_s';
-    font-weight: bold;
     display: block;
     margin: 0 0 5px;
     letter-spacing: -0.06em;
