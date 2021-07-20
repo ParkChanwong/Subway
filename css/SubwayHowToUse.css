@@ -1,0 +1,52 @@
+.sub_header { background-color: white;}
+.sub_header .sub_loc { text-align:center;}
+.sub_header .sub_loc ul { overflow:hidden; display:inline-block; border-bottom: 0.1px gray;}
+.sub_header .sub_loc ul li { float:left; position:relative; font-family: sw_s; font-weight: 600;}
+.sub_header .sub_loc ul li + li { padding-left:24px; margin-left:21px;}
+.sub_header .sub_loc ul li + li:after { content:''; width:4px; height:4px; background-color:#dddddd; border-radius:30px; position:absolute; left:0; top:28px;}
+.sub_header .sub_loc ul li:first-child { margin-left:0; padding-left:0}
+.sub_header .sub_loc ul li:first-child:after { display:none;}
+.sub_header .sub_loc ul li a { display:block; line-height:60px; color:#999999; font-size:16px; letter-spacing:-0.08em; position:relative;}
+.sub_header .sub_loc ul li.active a { color:#009223; font-weight:bold;}
+.sub_header .sub_loc ul li.active a:after { content:''; position:absolute; left:0; width:100%; height:4px; bottom:0; background-color:#009223;}
+
+h2.subTitle { text-align:center; font-size:40px; color: #292929; letter-spacing:-0.07em; padding:100px 0 80px; font-family: sw_s; font-weight: 550;}
+
+.utilization_subway_wrapper .tab {
+    background: url(../images/utilization/bg_tab_subway.png) -5px -1px no-repeat;
+    width: 1189px;
+    height: 79px;
+    margin: 0 auto;
+    position: relative;
+    left: 9px;
+    z-index: 10;
+}
+
+.utilization_subway_wrapper .tab ul li.active a {
+    background-color: #009223;
+    color: #fff;
+}
+
+.utilization_subway_wrapper .tab ul li a {
+    display: block;
+    height: 68px;
+    line-height: 68px;
+    position: relative;
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    background-color: #fff;
+}
+
+a {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ol, ul {
+    list-style: none;
+}
