@@ -82,6 +82,48 @@
 
 .event_slide div {
     height: 400px;
+    font-size: 0;
+}
+
+.event_slide .event_img {
+    width: 770px;
+    height: 100%;
+    display: inline-block !important;
+}
+
+.event_slide .event_info {
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 30px;
+    width: 370px;
+    height: 380px;
+    position: relative;
+    vertical-align: top;
+}
+
+.event_slide .event_info p {
+    font-size: 22px;
+    font-family: 'sw_f';
+    letter-spacing: -0.015em;
+    color: #009223;
+    margin-bottom: 9px;
+}
+
+.event_slide .event_info h1 {
+    font-size: 28px;
+    font-family: 'noto_l';
+    line-height: 42px;
+    letter-spacing: -0.03em;
+    color: #292929;
+}
+
+.event_slide .event_info h2 {
+    font-size: 15px;
+    font-family: 'noto_t';
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #666666;
+    margin-top: 27px;
 }
 
 .slick-dotted.slick-slider {
