@@ -183,6 +183,17 @@
     text-align: right;
     padding-right: 53px;
 }
+.menu_info .next img{
+    position: absolute;
+    width: 370px;
+    height: 260px;
+    top: -100px;
+    right: -370px;
+    opacity: 0.5;
+}
+.menu_info .next:hover img {
+    opacity: 1;
+}
 
 .menu_info .next::after{
     background-position: 100% 0;
@@ -213,9 +224,14 @@
     left: -370px;
     opacity: 0.5;
 }
-.menu_info .before:hover::after{
-    background-position: 0 100%
+.menu_info .before:hover img {
+    opacity: 1;
 }
+.menu_info .before:hover::after{
+    background-position: 0 100%;
+}
+
+
 
 .menu_info .summary{
     font-size: 16px;
