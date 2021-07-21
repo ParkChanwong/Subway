@@ -23,19 +23,34 @@
 }
 
 .faq_oneOnOne_header ul li a {
-    display: block;
-    position: relative;
     font-size: 16px;
     color: #999999;
     line-height: 60px;
     font-family: 'noto_m';
 }
 
-.faq_oneOnOne_header ul .active a {
+.faq_oneOnOne_header ul li+li{
+    margin-left: 21px;
+}
+
+.faq_oneOnOne_header ul li+li::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color: #dddddd;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 28px;
+}
+
+.faq_oneOnOne_header .active a {
+    display: block;
+    position: relative;
     color: #009223;
 }
 
-.faq_oneOnOne_header ul .active a::after {
+.faq_oneOnOne_header .active a::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -89,6 +104,7 @@
 }
 
 .faq_wrapper .faq_menu ul {
+    font-size: 0;
     overflow: hidden;
     display: inline-block;
 }
@@ -96,6 +112,11 @@
 .faq_wrapper .faq_menu li {
     display: inline-block;
     position: relative;
+}
+
+.faq_wrapper .faq_menu li::after{
+    content: '';
+    
 }
 
 .faq_wrapper .faq_menu a {
@@ -134,6 +155,20 @@
     display: table;
 }
 
+.board_list_wrapper .board_total {
+    color: #999999;
+    float: left;
+    margin-top: 17px;
+    font-family: 'noto_dl';
+}
+
+.board_list_wrapper .board_total strong {
+    font-family: 'noto_m';
+    color: #009223;
+    display: inline-block;
+    margin: 0 0 0 3px;
+}
+
 .form_search {
     float: right;
     margin-bottom: 10px;
@@ -156,12 +191,12 @@
 
 input {
     vertical-align: middle;
-    font-family: 'noto_m';
+    font-family: 'noto_dl';
     outline: none;
 }
 
 input::placeholder {
-    color: #dddddd;
+    color: #bbbbbb;
   }
 
 .form_search .btn_search {
@@ -230,7 +265,7 @@ details[open] .question strong{
 .faq_wrapper .question strong {
     display: block;
     margin-top: 5px;
-    font-family: 'noto_m';
+    font-family: 'noto_dl';
     color: #292929;
     line-height: 26px;
     font-size: 16px;
@@ -250,6 +285,9 @@ details[open] .question strong{
 
 details[open] .question:after{
     transform: rotate(135deg);
+}
+
+.faq_wrapper .question:after{
     transition-duration: 0.5s;
 }
 
@@ -266,7 +304,7 @@ details[open] .question:after{
     margin-top: -15px;
     color: #fff;
     font-weight: bold;
-    font-family: 'noto_m';
+    font-family: 'noto_dl';
     font-size: 18px;
     width: 30px;
     height: 30px;
@@ -278,7 +316,7 @@ details[open] .question:after{
 .faq_wrapper .answer .answer_txt {
     display: block;
     color: #666666;
-    font-family: 'noto_m';
+    font-family: 'noto_dl';
     line-height: 26px;
     font-size: 16px;
     border-top: 1px solid #dddddd;
@@ -288,10 +326,11 @@ details[open] .question:after{
 .pagination {
     text-align: center;
     margin-top: 34px;
+    font-size: 0;
 }
 
 .pagination a {
-    font-family: 'noto_m';
+    font-family: 'sw_f';
     font-weight: bold;
     font-size: 18px;
     padding: 0 3px;
@@ -305,6 +344,7 @@ details[open] .question:after{
 }
 
 .pagination .prev_btn{
+    margin-right: 97px;
     display: inline-block;
     width: 2px;
     height: 12px;
@@ -321,6 +361,7 @@ details[open] .question:after{
 }
 
 .pagination .next_btn{
+    margin-left: 97px;
     display: inline-block;
     width: 2px;
     height: 12px;
