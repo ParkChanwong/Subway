@@ -304,7 +304,7 @@ details[open] .question strong{
     color: #fff;
     font-weight: bold;
     font-family: 'sw_f';
-    font-size: 18px;
+    font-size: 19px;
     width: 30px;
     height: 30px;
     padding-top: 1px;
@@ -355,7 +355,7 @@ details[open] .question:after{
     color: #fff;
     font-weight: bold;
     font-family: 'sw_f';
-    font-size: 18px;
+    font-size: 20px;
     width: 30px;
     height: 30px;
     padding-top: 1px;
@@ -364,7 +364,7 @@ details[open] .question:after{
     text-align: center;
     border-radius: 15px;
 }
-}
+
 
 .faq_wrapper .answer .answer_txt {
     display: block;
