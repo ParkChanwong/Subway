@@ -141,6 +141,10 @@
     background-color: #dddddd;
 }
 
+.menu_content {
+    overflow: hidden;
+}
+
 .menu_content a{
     text-decoration: none;
     color: #333;
@@ -190,6 +194,7 @@
     top: -100px;
     right: -370px;
     opacity: 0.5;
+    transition-duration: 0.2s;
 }
 .menu_info .next:hover img {
     opacity: 1;
@@ -223,6 +228,7 @@
     top: -100px;
     left: -370px;
     opacity: 0.5;
+    transition-duration: 0.2s;
 }
 .menu_info .before:hover img {
     opacity: 1;
