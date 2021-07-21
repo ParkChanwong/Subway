@@ -127,9 +127,33 @@
 }
 
 .event_slide .event_info a {
+    position: absolute;
+    left: 0;
+    bottom: 16px;
     width: 140px;
     height: 50px;
     border-radius: 50px;
+    background-color: #009223;
+    text-indent: 21px;
+    font-size: 18px;
+    font-family: 'noto_r';
+    letter-spacing: -0.05em;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.event_slide .event_info a::after {
+    content: '';
+    position: absolute;
+    background: url('../images/eventPromotion/event_btn_arrow.png') 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    top: 18px;
+    right: 10px;
+}
+
+.event_slide .event_info a:hover {
+    background-color: #00811f;
 }
 
 .slick-dotted.slick-slider {
@@ -150,6 +174,7 @@
     width: 10px !important;
     height: 10px !important;
     padding: 0 !important;
+    transition-duration: 0.3s;
 }
 
 .slick-dots li button:before {
@@ -171,6 +196,35 @@
 .slick-dots li.slick-active button:before {
     width: 30px !important;
     background-color: #ffc300;
+}
+
+.slick-prev, .slick-next {
+    width: 50px !important;
+    height: 50px !important;
+    background: url('../images/eventPromotion/event_slide_arrow.png') no-repeat !important;
+    top: 43% !important;
+}
+
+.slick-prev::before, .slick-next::before {
+    display: none;
+}
+
+.slick-prev {
+    background-position: 0 0 !important;
+    left: -110px !important;
+}
+
+.slick-next {
+    background-position: 100% 0 !important;
+    right: -110px !important;
+}
+
+.slick-prev:hover {
+    background-position: 0 100% !important;
+}
+
+.slick-next:hover {
+    background-position: 100% 100% !important;
 }
 
 .eventList_wrap {
@@ -293,6 +347,25 @@
     left: 0;
     top: 0;
     font-size: 0;
+    overflow: hidden;
+}
+
+.eventList ul li a::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
+    border: 10px solid #009223;
+    transition-duration: 0.2s;
+}
+
+.eventList ul li a:hover::after {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .eventList ul li img {
