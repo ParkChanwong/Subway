@@ -1,0 +1,102 @@
+#container {
+    font-family: 'sw_f';
+}
+
+.subTitle {
+    font-family: 'sw_s';
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: #292929;
+    font-weight: 300;
+    letter-spacing: -0.07em;
+    padding: 134px 0 80px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em ;
+    margin-block-end: 1em ;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.board_total {
+    color: #999999;
+    letter-spacing: -0.045em;
+    float: left;
+    margin-top: 17px;
+}
+.board_total strong {
+    color: #009223;
+    margin: 0 0 0 3px;
+    font-weight: bold;
+}
+
+input{
+    border: 0;
+    height: 41px;
+    width: 100%;
+    text-indent: 14px;
+    color: #292929;
+    font-size: 16px;
+    outline: none;
+}
+.form_search{
+    width: 224px;
+    float: right;
+    vertical-align: middle;
+    border: 2px solid #dddddd;
+    height: 41px;
+    position: relative;
+    padding-right: 42px;
+}
+.btn_search{
+    background: url(../images/newnotice_images/icon_search.png) 50% 50% no-repeat;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#text{
+    visibility: hidden;
+}
+
+caption{
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.table_contain{
+    width: 1290px;
+    margin: 0 auto;
+}
+
+table {
+    clear: both;
+    border-top: 4px solid #009223;
+    width: 100%;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr{
+    display: table-row;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.icon_notice{
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    background: url(../images/newnotice_images/icon_notice.png) 0 0 no-repeat;
+}
+footer{
+    display: none;
+}
