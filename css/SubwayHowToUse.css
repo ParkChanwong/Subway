@@ -359,6 +359,10 @@ img {
     color: white;
 }
 
+.btn.bgc_bw:hover .i_mag {
+    background: url(../images/btn_mag_hover.png) 0 0 no-repeat;
+}
+
 .btn.bgc_bw .i_mag {
     content: '';
     display: inline-block;
