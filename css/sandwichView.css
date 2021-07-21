@@ -213,9 +213,6 @@
     left: -370px;
     opacity: 0.5;
 }
-.menu_info .before img:hover{
-    opacity: 1;
-}
 .menu_info .before:hover::after{
     background-position: 0 100%
 }
