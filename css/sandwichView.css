@@ -202,7 +202,20 @@
     background-position: 0 0;
     left: 0;
 }
-
+.menu_img {
+    position: relative;
+}
+.menu_info .before img{
+    position: absolute;
+    width: 370px;
+    height: 260px;
+    top: -100px;
+    left: -370px;
+    opacity: 0.5;
+}
+.menu_info .before img:hover{
+    opacity: 1;
+}
 .menu_info .before:hover::after{
     background-position: 0 100%
 }
