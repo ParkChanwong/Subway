@@ -297,6 +297,10 @@ strong {
     height: 5px;
 }
 
+.utilization_subway_content .slider_wrapper .step_content ol li:nth-last-of-type(1)::after {
+    background: none;
+}
+
 element.style {
     left: 50%;
     margin-left: -585px;
@@ -347,6 +351,12 @@ img {
     border: 2px solid #bbbbbb;
     color: #999999;
     margin-top: -1px;
+}
+
+.btn.bgc_bw:hover {
+    background-color: #444;
+    border: 2px solid #444;
+    color: white;
 }
 
 .btn.bgc_bw .i_mag {
