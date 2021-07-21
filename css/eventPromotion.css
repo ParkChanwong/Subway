@@ -126,6 +126,12 @@
     margin-top: 27px;
 }
 
+.event_slide .event_info a {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+}
+
 .slick-dotted.slick-slider {
     margin-bottom: 0 !important;
 }
@@ -252,9 +258,6 @@
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
-
-/* .eventList_category ul .active {
-} */
 
 .eventList_category ul .active a {
     background-color: #58006c;
