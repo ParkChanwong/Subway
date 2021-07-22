@@ -1,0 +1,179 @@
+html, body, button, dl, dt, dd, div, form, fieldset, legend, h1, h2, h3, h4, h5, h6, input, select, textarea, ul, ol, li, p, pre, table, td, th, caption, a, button, figure {
+    margin: 0;
+    padding: 0;
+    line-height: 120%;
+}
+
+body {
+    font-size: 16px;
+    color: #666666;
+    font-family: sw_s, sw_f;
+}
+
+div {
+    display: block;
+}
+
+.content {
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sub_header {
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    height: 59px;
+    background-color: #fff;
+    z-index: 5;
+}
+
+#content {
+    padding-top: 0;
+    position: relative;
+    z-index: 3;
+}
+
+#content h2.subTitle {
+    text-align: center;
+    font-size: 40px;
+    color: #292929;
+    font-weight: 300;
+    letter-spacing: -0.07em;
+    padding: 134px 0 80px;
+    font-weight: bold;
+}
+
+#content h2.subTitle{text-align:center; font-size:40px; color:#292929; font-weight:300; letter-spacing:-0.07em; padding:134px 0 80px;}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.sub_header .sub_loc {
+    text-align: center;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.sub_header .sub_loc ul {
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.sub_header .sub_loc ul li {
+    float: left;
+    position: relative;
+}
+
+.sub_header .sub_loc ul li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.sub_header .sub_loc ul li a {
+    display: block;
+    line-height: 60px;
+    color: #999999;
+    font-size: 16px;
+    letter-spacing: -0.08em;
+    position: relative;
+}
+
+.sub_header .sub_loc ul li.active a {
+    color: #009223;
+    font-weight: 300;
+}
+
+.sub_header .sub_loc ul li.active a:after { content:''; position:absolute; left:0; width:100%; height:4px; bottom:0; background-color:#009223}
+
+.sub_header .sub_loc ul li {
+    float: left;
+    position: relative;
+}
+
+.sub_header .sub_loc ul li + li {
+    padding-left: 24px;
+    margin-left: 21px;
+}
+
+.sub_header .sub_loc ul li:first-child:after {
+    display: none;
+}
+
+.sub_header .sub_loc ul li + li:after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color: #dddddd;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 28px;
+}
+
+.tab02 {
+    width: 1170px;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    box-shadow: 7px 7px 20px 0px rgb(0 0 0 / 10%);
+}
+
+.tab02 ul {
+    overflow: hidden;
+    width: 1170px;
+    display: flex;
+    border-left: 1px solid #e5e5e5;
+}
+
+.tab02 ul li {
+    flex: 1;
+    border: 1px solid #e5e5e5;
+    margin-left: -1px;
+    position: relative;
+}
+
+.tab02 ul li a {
+    display: block;
+    height: 68px;
+    line-height: 68px;
+    position: relative;
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    background-color: #fff;
+}
+
+.tab02 ul li.active a {
+    background-color: #009223;
+    color: #fff;
+}
+
+.utilization_subway_content {
+    background-color: #f6f6f6;
+    margin-top: -45px;
+    padding-top: 60px;
+}
+
+.utilization_subway_content .slider_wrapper {
+    position: relative;
+    padding-top: 10px;
+}
