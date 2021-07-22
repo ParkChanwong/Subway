@@ -404,9 +404,23 @@
     left: 0;
 }
 
-.eventList ul li img {
+.eventList ul li .eventList_img_wrap {
     width: 370px;
     height: 192px;
+    overflow: hidden;
+}
+
+.eventList ul li .eventList_img_wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.eventList ul li.close .eventList_img_wrap {
+    background-color: #000;
+}
+
+.eventList ul li.close .eventList_img_wrap img {
+    opacity: 0.6;
 }
 
 .eventList ul li .listText_wrap {
@@ -427,7 +441,13 @@
     bottom: 23px;
     font-size: 16px;
     color: #009223;
-    font-family: "noto_b";
+    font-family: "sw_f";
+}
+
+.eventList ul li.close .event_date {
+    color: #bbbbbb;
+    font-family: "noto_r";
+    letter-spacing: -0.04em;
 }
 
 .eventList .more_btn {
