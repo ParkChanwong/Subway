@@ -3,6 +3,9 @@
 }
 .content_wrap{
     padding-bottom: 120px;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
 }
 .subTitle {
     font-family: 'sw_s';
@@ -65,7 +68,7 @@ input{
 }
 
 .table_contain{
-    width: 1250px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -155,7 +158,7 @@ a:hover .right_arrow {
     color: #bbbbbb;
 }
 
-.pagenation a .active{
+.pagenation .active{
     color: #009223;
 }
 
@@ -201,6 +204,6 @@ td{
     border-bottom: 1px solid #dddddd;
 }
 
-div {
+/* div {
     display: block;
-}
+} */
