@@ -1,7 +1,9 @@
 #container {
     font-family: 'sw_f';
 }
-
+.content_wrap{
+    padding-bottom: 120px;
+}
 .subTitle {
     font-family: 'sw_s';
     font-weight: bold;
@@ -62,9 +64,8 @@ input{
     visibility: hidden;
 }
 
-
 .table_contain{
-    width: 1200px;
+    width: 1250px;
     margin: 0 auto;
 }
 
@@ -75,8 +76,45 @@ input{
     background: url(../images/newnotice_images/icon_notice.png) 0 0 no-repeat;
 }
 
+.left_arrow {
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    background: url(../images/newnotice_images/icon_page_arr.png) 0 0 no-repeat;
+    background-position: left top;
+    margin-right: 97px;
+}
+
+a:hover .left_arrow{
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    background: url(../images/newnotice_images/icon_page_arr.png) 0 0 no-repeat;
+    background-position: left bottom;
+    margin-right: 97px;
+}
+
+.right_arrow {
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    background: url(../images/newnotice_images/icon_page_arr.png) 0 0 no-repeat;
+    background-position: right top;
+    margin-left: 97px;
+}
+a:hover .right_arrow {
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    background: url(../images/newnotice_images/icon_page_arr.png) 0 0 no-repeat;
+    background-position: right bottom;
+    margin-left: 97px;
+}
+
+
 .notice, .num{
-    height: 71.5px;
+    width: 80px;
+    height: 72px;
 }
 
 .notice{
@@ -87,9 +125,8 @@ input{
     color: #ffc300;
 }
 
-td.td_title{
+.td_title{
     width: 900px;
-    padding-left: 10px;
 }
 .td_blank{
     width: 50px;
@@ -102,12 +139,24 @@ td.td_title{
 
 .title{
     text-align: left;
+}
+.title a{
     color: #292929;
 }
 
 .pagenation{
     text-align: center;
     margin-top: 34px;
+}
+
+.pagenation a{
+    font-size: 18px;
+    margin: 0 10px;
+    color: #bbbbbb;
+}
+
+.pagenation a .active{
+    color: #009223;
 }
 
 caption{
@@ -119,7 +168,7 @@ caption{
     overflow: hidden;
 }
 
-tr.notice{
+.notice .title a{
     color:#009223;
     font-weight: bold;
 }
@@ -152,4 +201,6 @@ td{
     border-bottom: 1px solid #dddddd;
 }
 
-
+div {
+    display: block;
+}
