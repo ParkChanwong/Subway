@@ -110,6 +110,43 @@ a {
     background-position:100% 0
 }
 
+.menu_header .share1{
+    position: absolute;
+    right: -40px;
+    top: 0;
+}
+.menu_header .share2{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.menu_header .share1 a{
+    background: url(/images/menuinfo_images/etc/icon_sns.png) no-repeat;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.menu_header .share2 a{
+    background: url(/images/menuinfo_images/etc/icon_sns.png) no-repeat;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.menu_header .share1 .facebook{
+    background-position: 100% 0;
+}
+.menu_header .share1 .facebook:hover{
+    background-position: 0 0;
+}
+.menu_header .share2 .url{
+    background-position: 100% -80px;
+}
+.menu_header .share2 .url:hover{
+    background-position: 0% -80px;
+}
+
 
 .menuView_wrap .menu_header .name{
     color: #292929;
@@ -321,6 +358,7 @@ a {
 .Nutrition_label .Nutrition_content table{
     border-top: 4px solid #009223;
     width: 100%;
+    border-collapse: collapse;
 }
 
 .Nutrition_content table th{
@@ -480,8 +518,41 @@ a {
     position: relative;
     margin: 0 auto;
 }
+.list_btn_wrap .list_btn a{
+    background-color: #009223;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    text-indent: 30px;
+}
+.list_btn_wrap .list_btn span{
+    width: 20px;
+    height: 4px;
+    background-color: #ffce32;
+    z-index: 10;
+    position: absolute;
+}
+.list_btn_wrap .list_btn #ham1{
+    top: 16px;
+    left: 30px;
+}
+.list_btn_wrap .list_btn #ham2{
+    top: 23px;
+    left: 30px;
+}
+.list_btn_wrap .list_btn #ham3{
+    top: 30px;
+    left: 30px;
+}
 
+/* 팝업 배경 */
 .popUp_back{
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -585,6 +656,7 @@ a {
 }
 /* 알레르기 정보 팝업 */
 .allergy_popUp{
+    display: none;
     font-family: 'sw_s';
     position: fixed;
     top: 10%;
@@ -656,11 +728,14 @@ a {
 .allergy_popUp .popUp_content .popUp_content_wrap .icon_info>span{
     position: relative;
     vertical-align: middle;
+    margin-right: 10px;
 }
 .inc_icon{
-    background: url(/images/menuinfo_images/etc/icon_allergy01.png) no-repeat;
+    background: url(/images/menuinfo_images/etc/icon_allergy01.png) 0 0 no-repeat;
     width: 12px;
     height: 12px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .allergy_popUp .popUp_content .popUp_content_wrap .caution{
@@ -711,15 +786,23 @@ a {
 
 .allergy_popUp .stuff_table{
     border-top: 4px solid #009223;
+}
+.allergy_popUp .stuff_table table{
     border-collapse: collapse;
 }
-.allergy_popUp .stuff_table th{
+.allergy_popUp .stuff_table thead th{
     background-color: #fff;
+}
+.allergy_popUp .stuff_table th{
     color: #292929;
     font-size: 13px;
     height: 50px;
     line-height: 18px;
     width: 100px;
+}
+.allergy_popUp .stuff_table .hide{
+    color: #fff;
+    width: 250px;
 }
 .allergy_popUp .stuff_table tr:nth-child(odd){
     background-color: #f6f6f6;
@@ -729,4 +812,11 @@ a {
     height: 50px;
     line-height: 18px;
     width: 100px;
+    text-align: center;
+}
+
+.allergy_popUp .stuff_table tbody th{
+    color: #009223;
+    font-size: 13px;
+    line-height: 18px;
 }
