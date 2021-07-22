@@ -1,0 +1,128 @@
+.subway_promise_wrapper {
+    padding-top: 127px;
+}
+.subway_promise_wrapper .search {
+    text-align: center; 
+    margin: 81px;
+}
+.subway_promise_wrapper .search h2 {
+    color: #009223; 
+    font-weight: bold; 
+    font-family: font_sw; 
+    font-size: 36px;
+}
+.subway_promise_wrapper .search h2 em {
+    color: #62ce08;
+}
+.subway_promise_wrapper .search h2 span {
+    font-size: 28px; 
+    display: inline-block; 
+    vertical-align: top;
+}
+.subway_promise_wrapper .search p {
+    color: #292929; 
+    font-size: 18px; 
+    margin-top: 18px;
+}
+.subway_promise_wrapper .subway_promise_content li {
+    padding-bottom: 70px; 
+    position: relative;
+}
+.subway_promise_wrapper .subway_promise_content li:after {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    width: 100%; 
+    bottom: 0; 
+    height: 130px;
+}
+.subway_promise_wrapper .subway_promise_content li .wrap {
+    width: 1170px; 
+    margin: 0 auto; 
+    padding: 60px 0 0; 
+    position: relative;
+}
+.subway_promise_wrapper .subway_promise_content .info {
+    position: absolute;
+    top: 141px;
+}
+.subway_promise_wrapper .subway_promise_content .info .title .number{
+    color: #fff;
+    font-weight: bold; 
+    font-size: 18px; 
+    display: block; 
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: -21px;
+    background-color: #009223;
+    text-align: center;
+}
+.subway_promise_wrapper .subway_promise_content .info .title .number:after {
+    content: "";
+    width: 22px; 
+    height: 3px; 
+    position: absolute; 
+    left: 50%; 
+    margin-left: -11px; 
+    top: 12px; 
+    background-color: #ffce32;
+}
+.subway_promise_wrapper .subway_promise_content .info .title strong {
+    color: #292929; 
+    font-size: 28px; 
+    font-weight: bold;
+    letter-spacing: -0.04em; 
+    text-align: left;
+    display: block;
+    padding-left: 69px;
+}
+.subway_promise_wrapper .subway_promise_content .info p {
+    color: #292929; 
+    font-size: 16px; 
+    line-height: 26px; 
+    letter-spacing: -0.04em;
+    margin-top: 28px;
+}
+.subway_promise_wrapper .subway_promise_content .addition {
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 52px;
+    letter-spacing: -0.035em;
+}
+.subway_promise_wrapper .subway_promise_content li:nth-child(odd) {
+    background-color: #f6f6f6
+}
+.subway_promise_wrapper .subway_promise_content li:nth-child(odd) .info {
+    left: 670px;
+}
+.subway_promise_wrapper .subway_promise_content li:nth-child(odd) .addition {
+    color: #fff;
+    left: 600px;
+}
+.subway_promise_wrapper .subway_promise_content li:nth-child(odd):after {
+    background-color: #fff;
+}
+
+.subway_promise_wrapper .subway_promise_content li:nth-child(even) {
+    background-color: #fff;
+}
+.subway_promise_wrapper .subway_promise_content li:nth-child(even) .img {
+    float: righht;
+}
+.subway_promise_wrapper .subway_promise_content li:nth-child(even) .info {
+    left: 0px;
+}
+.subway_promise_wrapper .subway_promise_content li:nth-child(even) .addition {
+    color: #f6f6f6; 
+    text-align: right;
+    right: 600px;
+}
+.subway_promise_wrapper .subway_promise_content li:nth-child(even):after {
+    background-color: #f6f6f6;
+}
