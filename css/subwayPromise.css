@@ -95,6 +95,7 @@
     bottom: 52px;
     letter-spacing: -0.035em;
 }
+
 .subway_promise_wrapper .subway_promise_content li:nth-child(odd) {
     background-color: #f6f6f6
 }
@@ -113,7 +114,7 @@
     background-color: #fff;
 }
 .subway_promise_wrapper .subway_promise_content li:nth-child(even) .img {
-    float: righht;
+    float: right;
 }
 .subway_promise_wrapper .subway_promise_content li:nth-child(even) .info {
     left: 0px;
