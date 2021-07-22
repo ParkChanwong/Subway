@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBWAY - 신선한 재료소개</title>
+    <link rel="shortcut icon" href="./images/subway_tIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/global.css" type="text/css">
+    <link rel="stylesheet" href="./css/index.css" type="text/css">
+    <link rel="stylesheet" href="./css/freshIngredients.css" type="text/css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="header_wrap">
+                <img src="./images/subway_logo.jpg" alt="SUBWAY 로고" class="logo" onclick="location.href='./index.html'">
+                <div class="header_menu">
+                    <ul>
+                        <li class="login"><a href="">로그인</a></li>
+                        <li class="signUp">
+                            <a href="">회원가입</a>
+                        </li>
+                        <li class="menu_icon">
+                            <a href="https://www.subway.com/en-us/exploreourworld" target="_blank">
+                                <img src="./images/icon_utill_global.png" alt="글로벌">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="menu_categori">
+                    <ul class="categori_ul">
+                        <li class="categori_li">
+                            <p>메뉴소개</p>
+                            <div class="drop_menu">
+                                <ul class="drop_ul">
+                                    <li class="drop_li">
+                                        <a href="">
+                                            샌드위치
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            랩ㆍ기타
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            찹샐러드
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            아침메뉴
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            스마일 썹
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            단체메뉴
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="categori_li">
+                            <p>이용방법</p>
+                            <div class="drop_menu">
+                                <ul class="drop_ul">
+                                    <li class="drop_li">
+                                        <a href="">
+                                            써브웨이 이용방법
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            단체메뉴 이용방법
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            신선한 재료 소개
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            App 이용방법
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="categori_li">
+                            <p>새소식</p>
+                            <div class="drop_menu">
+                                <ul class="drop_ul">
+                                    <li class="drop_li">
+                                        <a href="">
+                                            이벤트ㆍ프로모션
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            뉴스ㆍ공지사항
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            광고영상
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="categori_li">
+                            <p>써브웨이</p>
+                            <div class="drop_menu">
+                                <ul class="drop_ul">
+                                    <li class="drop_li">
+                                        <a href="">
+                                            써브웨이 역사
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            써브웨이 약속
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            샌드위치 아티스트 지원
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            매장찾기
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="categori_li">
+                            <p>가맹점</p>
+                            <div class="drop_menu">
+                                <ul class="drop_ul">
+                                    <li class="drop_li">
+                                        <a href="">
+                                            써브웨이 프랜차이즈
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            가맹관련 FAQ
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            가맹신청ㆍ문의
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            지사안내
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            사업설명회
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="categori_li">
+                            <p>온라인주문</p>
+                            <div class="drop_menu">
+                                <ul class="drop_ul">
+                                    <li class="drop_li">
+                                        <a href="">
+                                            FAST-SUB
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            HOME-SUB
+                                        </a>
+                                    </li>
+                                    <li class="drop_li">
+                                        <a href="">
+                                            단체주문
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bg_w"></div>
+        </header>
+
+        <div id="container">
+            <div class="content_wrap">
+                <div class="content">
+                    <!-- 메뉴소개 카테고리 -->
+                    <div class="menu_list">
+                        <div class="freshIngredients">
+                            <ul class="content_category">
+                                <li><a href="#">써브웨이 이용방법</a></li>
+                                <li><a href="#">단체메뉴 이용방법</a></li>
+                                <li class="active"><a href="#">신선한 재료소개</a></li>
+                                <li><a href="#">APP 이용방법</a></li>
+                            </ul>
+                            <h2>Fresh Ingredients</h2>
+                            <p>매장에서 직접 굽는 빵, 엄격하게 세척하는 야채의 신선함,
+                            <br>
+                            써브웨이만의 다양한 소스를 맛보세요.</p>
+                            <div class="img1"></div>
+                            <div class="img2"></div>
+                            <div class="img3"></div>
+                        </div>
+                    </div>
+                    <!-- 상품별 정렬 -->
+                    <div class="prod_tab">
+                        <ul>
+                            <li class="active"><a href="#">All</a></li>
+                            <li><a href="#">빵</a></li>
+                            <li><a href="#">야채</a></li>
+                            <li><a href="#">치즈</a></li>
+                            <li><a href="#">소스</a></li>
+                        </ul>
+                    </div>
+                    <!-- 상품 목록 -->
+                    <div class="prod_list">
+                        <ul>
+                            <li class="prod_freshIngredients_new">
+                                <div class="img">
+                                        <img src="/images/menuinfo_images/FreshStuff/bread/img_recipe_b01.jpg"alt="허니오트">
+                                </div>
+                                <p class="title">허니오트</p>
+                                <p class="eng">Honey Oat</p>
+                                <p class="kcal">230 kcal</p>
+                                <div class="g_bg">
+                                    <p class="title">허니오트</p>
+                                    <p class="eng">Honey Oat</p>
+                                    <div class="summary">
+                                        <p>
+                                            고소한 위트빵에 오트밀 가루를 묻혀
+                                            <br>
+                                            고소함과 식감이 두배로
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="prod_freshIngredients_new">
+                                <div class="img">
+                                        <img src="/images/menuinfo_images/FreshStuff/bread/img_recipe_b02.jpg"alt="하티">
+                                </div>
+                                <p class="title">하티</p>
+                                <p class="eng">Hearty Italian</p>
+                                <p class="kcal">210 kcal</p>
+                                <div class="g_bg">
+                                    <p class="title">하티</p>
+                                    <p class="eng">Hearty Italian</p>
+                                    <div class="summary">
+                                        <p>
+                                            부드러운 화이트빵에 옥수수가루를 묻혀
+                                            <br>
+                                            겉은 바삭하고 고소하며 속은 부드럽게
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="prod_freshIngredients_new">
+                                <div class="img">
+                                        <img src="/images/menuinfo_images/FreshStuff/bread/img_recipe_b03.jpg"alt="위트">
+                                </div>
+                                <p class="title">위트</p>
+                                <p class="eng">Wheat</p>
+                                <p class="kcal">210 kcal</p>
+                                <div class="g_bg">
+                                    <p class="title">위트</p>
+                                    <p class="eng">Wheat</p>
+                                    <div class="summary">
+                                        <p>
+                                            9가지 곡물로 만들어 건강하고 고소한 맛의 곡물빵
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer_wrap">
+                <div class="footer_top">
+                    <ul>
+                        <li>
+                            <a href="">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <strong>개인정보처리방침</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">써브카드</a>
+                        </li>
+                        <li>
+                            <a href="">점주관리자</a>
+                        </li>
+                        <li>
+                            <a href="">Subway Listens</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_bottom">
+                    <span class="after">서울시 서초구 강남대로 535 프린스빌딩 15층</span>
+                    <span class="after">대표 : 콜린클락</span>
+                    <span class="after">전화 : 02-797-5036</span>
+                    <span>사업자등록번호 : 101-84-04143</span>
+                    <p>SUBWAY® is a Registered Trademark of Subway IP LLC. © 2021 Subway IP LLC. All Rights Reserved.</p>
+                </div>
+                <a href="https://www.instagram.com/subwaykorea/" target="_blank" class="footer_sns_icon instagram"></a>
+                <a href="https://www.facebook.com/Subwaykr" target="_blank" class="footer_sns_icon facebook"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
