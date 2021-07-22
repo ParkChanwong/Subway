@@ -1,4 +1,7 @@
-$('.slider_wrapper').slick(onclick(.arr_controls));
+$(document).ready(function(){
+    $('.slider_wrappe').slick();
+});
+
 
 function storeOrder(){
     $('#store_order').css("display", "block");
