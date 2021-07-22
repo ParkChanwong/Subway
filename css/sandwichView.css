@@ -565,3 +565,7 @@
     background-clip: padding-box;
     border: 4px solid transparent;
 }
+
+.popUp .close_btn{
+    background: url(/images/menuinfo_images/etc/icon_exc.png) no-repeat;
+}
