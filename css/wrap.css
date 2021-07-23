@@ -112,11 +112,12 @@
 }
 
 .wrap > p{
+    position: relative;
+    font-family: 'noto_r';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: -0.04em;
-    position: relative;
-    z-index: 10;
+    z-index: 100;
 }
 
 .prod_tab{
@@ -200,7 +201,7 @@
 .prod_list li .img{
     width: 270px;
     height: 189px;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 
 .prod_list li .img img{
@@ -224,8 +225,9 @@
     color: #666666;
     font-size: 16px;
     font-family: 'sw_s';
+    font-weight: bold;
     display: block;
-    margin: 0 0 5px;
+    margin: 0 0 15px;
     letter-spacing: -0.06em;
 }
 
@@ -266,6 +268,7 @@
     letter-spacing: -0.05em;
     line-height: 24px;
     word-break: keep-all;
+    margin: 0 10px;
 }
 
 .prod_list li .g_bg .img{
