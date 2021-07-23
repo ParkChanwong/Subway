@@ -111,10 +111,12 @@
 }
 
 .choppedSalad > p{
+    position: relative;
     font-family: 'noto_r';
     font-size: 16px;
     line-height: 26px;
     letter-spacing: -0.04em;
+    z-index: 10;
 }
 
 .prod_tab{
