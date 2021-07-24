@@ -95,7 +95,7 @@
     border-radius: 15px;
 }
 
-.faq_content .ask .ask-text{
+.faq_content details[open] .ask .ask-text{
     position: relative;
     padding: 18px 0 22px;
     border-top: 1px solid #dddddd;
@@ -119,6 +119,9 @@ details[open] .ask-text{
 details[open] .question strong{
     color: #009223;
     font-family: 'noto_l';
+}
+details[open] .question, details[open] .ask{
+    background-color: #f5f5f5;
 }
 
 .faq_wrapper .faq_content li, .faq_wrapper .question:after, .faq_wrapper .ask .ask_text {
