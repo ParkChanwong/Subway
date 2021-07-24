@@ -28,8 +28,11 @@
 .faq_content .question{
     position: relative;
     padding: 20px 100px 25px;
+    cursor: pointer;
 }
-
+.faq_content li{
+    border-bottom: 1px solid #dddddd;
+}
 .faq_content .question strong{
     display: block;
     font-family: 'noto_l';
@@ -63,12 +66,14 @@
     display: none;
 }
 
-ul{
-    list-style: none;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+.faq_wrapper .question::after {
+    content: '';
+    background: url(../images/franchiseFAQ/icon_faq.png)0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    margin-top: -10px;
 }
+
