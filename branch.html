@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./images/subway_tIcon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/global.css" type="text/css">
     <link rel="stylesheet" href="./css/index.css" type="text/css">
+    <link rel="stylesheet" href="./css/branch.css" type="text/css">
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/index.js"></script>
 </head>
@@ -127,12 +128,12 @@
                                         </a>
                                     </li>
                                     <li class="drop_li">
-                                        <a href="./history.html">
+                                        <a href="">
                                             써브웨이 약속
                                         </a>
                                     </li>
                                     <li class="drop_li">
-                                        <a href="./artistsupport.html">
+                                        <a href="">
                                             샌드위치 아티스트 지원
                                         </a>
                                     </li>
@@ -145,7 +146,7 @@
                             </div>
                         </li>
                         <li class="categori_li">
-                            <p>가맹점</p>
+                            <p class="active">가맹점</p>
                             <div class="drop_menu">
                                 <ul class="drop_ul">
                                     <li class="drop_li">
@@ -203,13 +204,151 @@
             </div>
             <div class="bg_w"></div>
         </header>
-
         <div id="container">
             <div class="content_wrap">
-
+                <div class="content">
+                    <a class="logo" href="/">Home</a>
+                    <div class="content_nav">
+                        <ul>
+                            <li class="active"><a href="./franchise.html">써브웨이 프랜차이즈</a></li>
+                            <li class="active"><a href="./franchiseFaq.html">가맹관련FAQ</a></li>
+                            <li class="active"><a href="./franchiseApply.html">가맹신청ㆍ문의</a></li>
+                            <li class="active"><a href="#">지사안내</a></li>
+                            <li class="active"><a href="./franchiseExplaination.html">사업설명회</a></li>
+                        </ul>
+                    </div>
+                    <a class="top" href="#none";>Home</a>
+                </div>
             </div>
         </div>
-
+        <div class="content_main">
+            <h2 class="sub_tit">지사안내</h2>
+            <div class="branch_guide">
+                <div class="branch_region">
+                    <ul>
+                        <li class="active">
+                            <a href="#map1">서울</a>
+                        </li>
+                        <li class="active">
+                            <a href="#map2">수도권</a>
+                        </li>
+                        <li class="active">
+                            <a href="#map3">지방</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="branch_map active" id="map1">
+                    <div class="label">
+                        <ul>
+                            <li class="one">서울강북지사</li>
+                            <li class="two">서울강남지사</li>
+                        </ul>
+                    </div>
+                    <div class="branch_info">
+                        <ul>
+                            <li>
+                                <strong>서울강북지사</strong>
+                                <p class="manager">구남규 지사장</p>
+                                <div class="addr">서울특별시 강남구 선릉로 121길 5 정림빌딩 2F<br>연락처 : 02-6203-5212<br>팩스번호 : 02-6203-5233
+                                </div>
+                            </li>
+                            <li>
+                                <strong>서울강남지사</strong>
+                                <p class="manager">이현주 지사장</p>
+                                <div class="addr">서울특별시 서초구 사평대로 55길 112-8 2층<br>연락처 : 02-6356-7907<br>팩스번호 : 02-6356-7908 
+                                </div>
+                            </li>
+                        </ul>
+                        <p class="more">ㆍ서브웨이의 가맹조건을 알아보세요</p>
+                        <a class="btn_franchise" href="./franchise.html">자세히보기</a>
+                    </div>
+                    <div class="map">
+                        <img src="./images/franchise/branch_map01.png" alt="서울지사">
+                    </div>
+                </div>
+                <div class="branch_map active" id="map2">
+                    <div class="label">
+                        <ul>
+                            <li class="one">경기서/인천지사</li>
+                            <li class="two">경기남부지사</li>
+                            <li class="six">가맹불가지역</li>
+                        </ul>
+                    </div>
+                    <div class="branch_info">
+                        <ul>
+                            <li>
+                                <strong>경기서/인천지사</strong>
+                                <p class="manager">임재현 지사장</p>
+                                <div class="addr">경기도 부천시 소향로 31 청죽타워빌딩 601호<br>연락처 : 032-224-6000<br>팩스번호 : 032-224-6600
+                                </div>
+                            </li>
+                            <li>
+                                <strong>경기남부지사</strong>
+                                <p class="manager">구준희 지사장</p>
+                                <div class="addr">서울특별시 강남구 선릉로 121길 5 정림빌딩 2F<br>연락처 : 02-6203-5212<br>팩스번호 : 02-6203-5233
+                                </div>
+                            </li>
+                        </ul>
+                        <p class="more">ㆍ서브웨이의 가맹조건을 알아보세요</p>
+                        <a class="btn_franchise" href="./franchise.html">자세히보기</a>
+                    </div>
+                    <div class="map">
+                        <img src="./images/franchise/branch_map02.png" alt="수도권지사">
+                    </div>
+                </div>
+                <div class="branch_map active" id="map3">
+                    <div class="label">
+                        <ul>
+                            <li class="one">대전/충남지사</li>
+                            <li class="two">대구/경북지사</li>
+                            <li class="thr">울산/경남지사</li>
+                            <li class="for">부산/김해지사</li>
+                            <li class="fiv">광주/전라지사</li>
+                            <li class="six">가맹불가지역</li>
+                        </ul>
+                    </div>
+                    <div class="branch_info">
+                        <ul>
+                            <li>
+                                <strong>대전/충남지사</strong>
+                                <p class="manager">변정원 지사장</p>
+                                <div class="addr">대전광역시 서구 둔산대로 117번길 95, 리더스타운 C동 501호<br>연락처 : 042-321-1151<br>팩스번호 : 042-321-0118
+                                </div>
+                            </li>
+                            <li>
+                                <strong>대구/경북지사</strong>
+                                <p class="manager">김성필 지사장</p>
+                                <div class="addr">대구광역시 북구 대학로87 써브웨이 3층<br>연락처 : 052-951-7803<br>팩스번호 : 052-715-1401
+                                </div>
+                            </li>
+                            <li>
+                                <strong>울산/경남지사</strong>
+                                <p class="manager">김미지 지사장</p>
+                                <div class="addr">경남 창원시 성산구 중앙대로 100번길 14,<br>스타타워즈 308호<br>연락처 : 055-275-5442<br>팩스번호 : 055-275-5443
+                                </div>
+                            </li>
+                            <li>
+                                <strong>부산/김해지사</strong>
+                                <p class="manager">이한종 지사장</p>
+                                <div class="addr">부산시 해운대구 센텀중앙로 48 에이스 하이테크 21 1710호<br>연락처 : 051-741-1124<br>팩스번호 : 없음
+                                </div>
+                            </li>
+                            <li>
+                                <strong>광주/전라지사</strong>
+                                <p class="manager">한경민 지사장</p>
+                                <div class="addr">광주광역시 서구 시청로 92,(유탑 유블레스 트윈시티), 202호<br>연락처 : 010-6462-3900<br>팩스번호 : 062-385-1121
+                                </div>
+                            </li>
+                        </ul>
+                        <p class="more">ㆍ서브웨이의 가맹조건을 알아보세요</p>
+                        <a class="btn_franchise" href="./franchise.html">자세히보기</a>
+                    </div>
+                    <div class="map">
+                        <img src="./images/franchise/branch_map03.png" alt="지방지사">
+                    </div>
+                </div>
+            </div>
+        </div>
         <footer>
             <div class="footer_wrap">
                 <div class="footer_top">
