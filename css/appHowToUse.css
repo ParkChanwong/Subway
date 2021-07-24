@@ -172,6 +172,10 @@ a {
     padding-top: 10px;
 }
 
+#store_order .slider_wrapper {
+    height: 695px;
+}
+
 .utilization_subway_content .slider_wrapper .step_content {
     text-align: center;
 }
@@ -407,7 +411,10 @@ section {
     display: block;
 }
 
-
+.process_order {
+    display: none;
+    overflow: hidden;
+}
 
 #fast_sub.active .process_order {
     display: block;

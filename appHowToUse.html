@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/appHowToUse.css" type="text/css">
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/appHowToUse.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -224,13 +225,13 @@
                 <div class="utilization_subway_wrapper">
                     <div class="tab02">
                         <ul>
-                            <li class="active"><a href="">FAST-SUB</a></li>
-                            <li class=""><a href="">HOME-SUB</a></li>
-                            <li class=""><a href="">단체주문</a></li>
+                            <li class="tab_fast active" onclick="fastSub()"><a href="">FAST-SUB</a></li>
+                            <li class="tab_home" onclick="homeSub()"><a href="">HOME-SUB</a></li>
+                            <li class="tab_group" onclick="groupSub()"><a href="">단체주문</a></li>
                         </ul>
                     </div>
                     <!-- FAST-SUB -->
-                    <div class="utilization_subway_content how_to_app" id="fast_sub" style="display: block;">
+                    <div class="utilization_subway_content how_to_app" id="fast_sub">
                         <div class="slider_wrapper">
                             <div class="step_content">
                                 <ol>
