@@ -1,7 +1,8 @@
 a {
     text-decoration: none;
 }
-#container{font-family: sw_s;}
+#container{font-family: 'noto_l';}
+
 .content_wrap{
     text-align: center;
     width: 100%;
@@ -13,6 +14,7 @@ a {
     top: 0;
     width: 100%;
     min-width: 1170px;
+    z-index: 100;
 }
 .content_category ul {
     font-size: 0;
@@ -94,16 +96,20 @@ a {
     font-size: 18px;
     letter-spacing: -0.03em;
     margin: 0 12px;
+    vertical-align: middle;
 }
 .menuView_wrap .menu_header .prod_category .active{
     color: #009223;
     display: inline-block !important;
 }
 .menuView_wrap .menu_header .prod_category .plus_btn{
-    background: url(/images/menuinfo_images/etc/icon_category.png) no-repeat;
+    display: inline-block;
+    background: url(/images/menuinfo_images/etc/icon_category.png) 0 0 no-repeat;
     width: 20px;
     height: 20px;
     border: none;
+    margin-left: -10px;
+    vertical-align: middle;
 }
 
 .menuView_wrap .menu_header .prod_category .plus_btn:hover{
@@ -152,7 +158,6 @@ a {
     font-size: 50px;
     padding-bottom: 11px;
     letter-spacing: -0.055em;
-    font-weight: normal;
 }
 .menuView_wrap .menu_header ul li{
     display: inline-block;
@@ -162,6 +167,7 @@ a {
 .menuView_wrap .menu_header .eng{
     color: #999999;
     font-size: 16px;
+    font-family: 'sw_s';
 }
 
 
@@ -219,8 +225,10 @@ a {
     height: 60px;
     line-height: 18px;
     letter-spacing: -0.02em;
+    font-weight: bold;
+    z-index: 100;
+    position: relative;
 }
-
 .menu_info .next{
     right: 0;
     text-align: right;
@@ -232,7 +240,7 @@ a {
     width: 370px;
     height: 260px;
     top: -100px;
-    right: -370px;
+    right: -165px;
     opacity: 0.5;
 }
 .menu_info .next:hover img {
@@ -265,7 +273,7 @@ a {
     width: 370px;
     height: 260px;
     top: -100px;
-    left: -370px;
+    left: -165px;
     opacity: 0.5;
 }
 .menu_info .before:hover img {
@@ -317,6 +325,7 @@ a {
     letter-spacing: -0.025em;
     margin-top: 8px;
     line-height: 1.3;
+    font-weight: bold;
 }
 
 .caution ul li{
@@ -351,13 +360,12 @@ a {
 }
 
 .Nutrition_label .Nutrition_content h3{
-    font-weight: bold;
+    font-family: 'noto_m';
     color: #292929;
     font-size: 28px;
     letter-spacing: -0.05em;
     margin-bottom: 37px;
 }
-
 .Nutrition_label .Nutrition_content table{
     border-top: 4px solid #009223;
     width: 100%;
@@ -370,14 +378,18 @@ a {
     height: 69px;
     text-align: center;
     border-bottom: 2px solid #009223;
+    font-weight: bold;
 }
 .Nutrition_content table td{
     color: #292929;
     font-size: 16px;
     height: 69px;
     border-bottom: 1px solid #dddddd;
+    font-family: 'noto_m';
 }
-
+.board_wrap .board_notice{
+    margin-top: 18px;
+}
 .board_wrap .board_notice li{
     color: #999;
     font-size: 13px;
@@ -401,6 +413,9 @@ a {
     vertical-align: middle;
     border-radius: 30px;
 }
+.button_wrap .btn:hover{
+    background-color: #292929;
+}
 
 .button_wrap .btn span{
     color: #fff;
@@ -410,9 +425,9 @@ a {
 }
 
 .three_fresh{
-    margin: 97px 0 121px;
+    margin: 97px auto 121px;
+    width: 1170px;
 }
-
 .three_fresh .fresh_header{
     margin: 0 auto;
     width: 1170px;
@@ -433,6 +448,7 @@ a {
     font-size: 50px;
     letter-spacing: -0.02em;
     line-height: 50px;
+    margin-bottom: 60px;
 }
 
 .three_fresh .fresh_header h3 span{
@@ -444,6 +460,10 @@ a {
     margin-top: 60px;
     position: relative;
 }
+.three_fresh .fresh_content ul{
+    overflow: hidden;
+    font-size: 0;
+}
 
 .three_fresh .fresh_content ul li{
     width: 370px;
@@ -451,6 +471,9 @@ a {
     margin-left: 30px;
     position: relative;
     display: inline-block;
+}
+.three_fresh .fresh_content ul li:first-child{
+    margin-left: 0;
 }
 
 .three_fresh .fresh_content ul li .img{
@@ -490,6 +513,7 @@ a {
     line-height: 32px;
     letter-spacing: -0.05em;
     text-align: left;
+    font-weight: bold;
 }
 .three_fresh .fresh_content ul li .text{
     color: #999999;
@@ -500,6 +524,7 @@ a {
     padding-top: 18px;
     position: relative;
     text-align: left;
+    font-weight: bold;
 }
 .three_fresh .fresh_content ul li .text::after{
     content: '';
@@ -532,6 +557,9 @@ a {
     text-align: center;
     border-radius: 50px;
     text-indent: 30px;
+}
+.list_btn_wrap .list_btn a:hover{
+    background-color: #00811f;
 }
 .list_btn_wrap .list_btn span{
     width: 20px;
