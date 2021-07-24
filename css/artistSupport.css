@@ -17,6 +17,9 @@
     font-size: 16px;
     color: #666666;
     font-family: noto_m;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .content {
     max-width: 1170px;
@@ -24,6 +27,20 @@
     position: relative;
     padding: 0;
     line-height: 120%;
+}
+.sub_header .logo {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    height: 60px;
+    width: 110px;
+    background: url(../images/logo_sub_header.png) 0 50% no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    font-size: 0;
+    line-height: 0;
+    opacity: 1;
+    display: none;
 }
 .sub_header .sub_loc {
     text-align: center;
@@ -80,25 +97,64 @@
     bottom: 0;
     background-color: #009223;
 }
+.sub_header .top {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    height: 32px;
+    padding-top: 28px;
+    font-family: sw_s;
+    font-weight: bold;
+    color: #bbbbbb;
+    font-size: 13px;
+    opacity: 1;
+    display: none;
+}
+.sub_header .top:after {
+    content: '';
+    height: 15px;
+    background: url(../images/icon_arr_top.png) 50% 0 no-repeat;
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 18px;
+}
+#content {
+    padding-top: 0;
+    position: relative;
+    z-index: 3;
+}
 .sandwich_artist_wrapper {
     padding-top: 126px;
+
 }
 .sandwich_artist_wrapper .hd {
     text-align: center;
 }
 .sandwich_artist_wrapper .hd h2 {
     font-size: 36px;
-    font-family: sw_f; 
+    font-family: sw_f;
     font-weight: bold;
     line-height: 46px;
     color: #009223;
-    letter-spacing: -0.005em;
+    letter-spacing: 0px;
 }
 .sandwich_artist_wrapper .hd h2 span {
     color: #62ce08;
     font-size: 36px;
-    font-family: sw_f;
-    font-weight: bold;
-    line-height: 46px;
-    letter-spacing: -0.005em;
+}
+.sandwich_artist_wrapper .hd p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    font-family: noto_dl;
+}
+.sandwich_artist_wrapper .slider_content {
+    margin-top: 60px;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
 }
