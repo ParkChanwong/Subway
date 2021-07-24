@@ -372,7 +372,7 @@ a {
     font-size: 16px;
     height: 69px;
     text-align: center;
-    border-bottom: 2px solid #009223;
+    border-bottom: 1px solid #009223;
     font-weight: bold;
 }
 .Nutrition_content table td{
@@ -385,13 +385,16 @@ a {
 .board_wrap .board_notice{
     margin-top: 18px;
 }
-
 .board_wrap .board_notice li{
     color: #999;
     font-size: 13px;
     letter-spacing: -0.05em;
     text-align: left;
     margin-top: 8px;
+    font-weight: bold;
+}
+.board_wrap .board_notice li:first-child{
+    margin-top: 0;
 }
 
 .button_wrap{
