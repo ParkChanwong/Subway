@@ -246,10 +246,10 @@
                                         - 계약 또는 청약철회 등에 관한 기록 : 5년 (전자상거래법등에서의 소비자보호에 관한 법률)<br>
                                         - 대금결제 및 재화 등의 공급에 관한 기록: 5년 (전자상거래법등에서의 소비자보호에 관한 법률)<br>
                                         - 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년 (전자상거래법등에서의 소비자보호에 관한 법률)<br>
-                                    </div>
+                                            </div>
                                    
-                                </div>
-                            </div>
+                                        </div>
+                                    </div>
                                     <!-- checkbox -->
                                     <label class="form_checkbox">
                                         <input type="checkbox">
@@ -261,7 +261,8 @@
                                 <!-- 개인정보 위탁동의 -->
                                 <div class="agree">
                                     <h3>개인정보 위탁동의</h3>
-                                    <div class="scroll_wrapper"><div class="agreeScrollBox" style="max-height: none;">
+                                    <div class="scroll_wrapper">
+                                        <div class="agreeScrollBox" style="max-height: none;">
                                         <div class="agreeTxt" dir="ltr">
                                         회사는 서비스의 향상을 위하여 아래와 같이 외부 전문업체를 통하여 업무를 위탁하여
                                         운영하고 있습니다. 위탁 업무를 위해 제공되는 정보는 해당 업무를 위해 필요한 최소
@@ -277,8 +278,8 @@
                                         법률을 준수하고 있습니다.<br>
                                         </div>
                                         
+                                        </div>
                                     </div>
-                                </div>
                                     <!-- checkbox -->
                                     <label class="form_checkbox">
                                         <input type="checkbox">
@@ -287,12 +288,13 @@
                                     </label>
                                       <!--// checkbox -->
                                 <!--// 개인정보 위탁동의 -->
+                                </div>
                             </div>
+
+                                <h3 class="h_title">문의 작성하기</h3>
     
-                            <h3 class="h_title">문의 작성하기</h3>
-    
-                            <!-- board list s -->
-                            <div class="board_write_wrapper">
+                                <!-- board list s -->
+                                <div class="board_write_wrapper">
                                 <p class="essential">필수입력사항</p>
                                 <table>
                                     <colgroup>
@@ -415,8 +417,8 @@
                                             <th scope="col">내용<span class="essImg"></span></th>
                                             <td>
                                                 <span class="form_textarea" style="width:100%">
-                                                    <textarea cols="5" placeholder="· 욕설, 비속어, 비방성 등 부적절한 단어가 포함되어 있는 경우, 답변 진행이 어려울 수 있습니다 
-    · 문의가 집중되거나 주말의 경우 답변이 지연될 수 있습니다. 최대한 빠르게 답변 드리도록 하겠습니다" rows="10" style="height:230px;"></textarea>
+                                                    <textarea cols="5" id="qaContent" name="content" placeholder="· 욕설, 비속어, 비방성 등 부적절한 단어가 포함되어 있는 경우, 답변 진행이 어려울 수 있습니다 
+· 문의가 집중되거나 주말의 경우 답변이 지연될 수 있습니다. 최대한 빠르게 답변 드리도록 하겠습니다" rows="10" style="height:230px;"></textarea>
                                                 </span>
                                             </td>
                                         </tr>
@@ -439,15 +441,15 @@
                                     <div class="cont_flex">
                                         <span style="font-size: 13px;color: #999999;"> - 답변 필요 선택 시, 신청·문의사항에 대한 답변은 메일로 발송됩니다. </span>
                                         <!-- radio -->
-                                        <div>
-                                            <label class="form_circle">
-                                                <input type="radio">
+                                        <div class="cont_right">
+                                            <label class="form_circle" for="r1">
+                                                <input id="r1" name="agree3" type="radio" >
                                                 <span class="icon"></span>
                                                 <em> 답변 필요
                                                 </em>
                                             </label>
-                                            <label class="form_circle">
-                                                <input type="radio">
+                                            <label class="form_circle" for="r2">
+                                                <input id="r2" name="agree3" type="radio">
                                                 <span class="icon"></span>
                                                 <em> 답변 불필요
                                                 </em>
@@ -456,16 +458,16 @@
                                         <!--// radio -->
                                     </div>
                                 </div>
-                            </div>
+                                </div>
     
-                            <div class="btns_wrapper">
+                                <div class="btns_wrapper">
                                 <a class="btn bgc_white" href="#" style="width:126px;">
                                     <span>취소</span>
                                 </a>
                                 <a class="btn bgc_point i_reg" href="#" style="width:170px;">
                                     <span>등록하기</span>
                                 </a>
-                            </div>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -473,7 +475,6 @@
                 <!--main content end-->
             </div>
         </div>
-    </div>
     <footer>
         <div class="footer_wrap">
             <div class="footer_top">
