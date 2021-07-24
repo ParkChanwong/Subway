@@ -227,6 +227,8 @@ a {
     line-height: 18px;
     letter-spacing: -0.02em;
     font-weight: bold;
+    z-index: 100;
+    position: relative;
 }
 
 .menu_info .next{
@@ -240,7 +242,7 @@ a {
     width: 370px;
     height: 260px;
     top: -100px;
-    right: -370px;
+    right: -165px;
     opacity: 0.5;
 }
 .menu_info .next:hover img {
@@ -273,7 +275,7 @@ a {
     width: 370px;
     height: 260px;
     top: -100px;
-    left: -370px;
+    left: -165px;
     opacity: 0.5;
 }
 .menu_info .before:hover img {
