@@ -1,6 +1,9 @@
 #container {
     margin-top: 170px;
     position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 120%;
 }
 .sub_header {
     left: 0;
@@ -11,8 +14,91 @@
     z-index: 5;
     position: absolute;
     background-color: transparent;
-    margin: 0;
+    font-size: 16px;
+    color: #666666;
+    font-family: noto_m;
+}
+.content {
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
     padding: 0;
     line-height: 120%;
-    
+}
+.sub_header .sub_loc {
+    text-align: center;
+}
+.sub_header .sub_loc ul {
+    overflow: hidden;
+    display: inline-block;
+    list-style: none;
+}
+.sub_header .sub_loc ul li {
+    float: left;
+    position: relative;
+}
+.sub_header .sub_loc ul li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+.sub_header .sub_loc ul li:first-child:after {
+    display: none;
+}
+.sub_header .sub_loc ul li a {
+    display: block;
+    line-height: 60px;
+    color: #999999;
+    font-size: 16px;
+    letter-spacing: -0.08em;
+    position: relative;
+    cursor: pointer;
+}
+.sub_header .sub_loc ul li + li {
+    padding-left: 24px;
+    margin-left: 21px;
+}
+.sub_header .sub_loc ul li + li:after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color: #dddddd;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    top: 28px;
+}
+.sub_header .sub_loc ul li.active a {
+    color: #009223;
+    font-weight: 300;
+}
+.sub_header .sub_loc ul li.active a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    background-color: #009223;
+}
+.sandwich_artist_wrapper {
+    padding-top: 126px;
+}
+.sandwich_artist_wrapper .hd {
+    text-align: center;
+}
+.sandwich_artist_wrapper .hd h2 {
+    font-size: 36px;
+    font-family: sw_f; 
+    font-weight: bold;
+    line-height: 46px;
+    color: #009223;
+    letter-spacing: -0.005em;
+}
+.sandwich_artist_wrapper .hd h2 span {
+    color: #62ce08;
+    font-size: 36px;
+    font-family: sw_f;
+    font-weight: bold;
+    line-height: 46px;
+    letter-spacing: -0.005em;
 }
