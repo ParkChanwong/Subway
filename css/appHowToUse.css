@@ -402,3 +402,229 @@ img {
     right: 0;
     background-position: 100% 0;
 }
+
+section {
+    display: block;
+}
+
+
+
+#fast_sub.active .process_order {
+    display: block;
+}
+
+.process_order ol li {
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 550px;
+}
+
+.process_order .explan_wrap {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 1170px;
+}
+
+.process_order .explan_wrap .txt_box {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    position: absolute;
+    top: 150px;
+    padding-top: 77px;
+    padding-left: 50px;
+    height: 340px;
+    width: 410px;
+}
+
+.process_order .explan_wrap.step1 .txt_box {
+    right: 520px;
+}
+
+.process_order .explan_wrap .txt_box .category_tit {
+    background-color: #666;
+    border-radius: 30px 0 30px 0;
+    box-sizing: border-box;
+    position: absolute;
+    left: -1px;
+    top: -23px;
+    padding-left: 110px;
+    height: 70px;
+    width: 410px;
+}
+
+.process_order .explan_wrap.step1 .txt_box .category_tit {
+    background-color: #009223;
+}
+
+.process_order .explan_wrap .txt_box .category_tit::before {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 31px;
+    top: -11px;
+    height: 106px;
+    width: 71px;
+    z-index: 1;
+}
+
+.process_order .explan_wrap.step1 .txt_box .category_tit::before {
+    background-image: url(../images/order_icon01.png);
+}
+
+.process_order .explan_wrap .txt_box p {
+    letter-spacing: -1px;
+}
+
+.process_order .explan_wrap .txt_box .category_tit p strong {
+    color: #ffce32;
+    font-family: 'sw_f';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.process_order .explan_wrap .txt_box .category_tit p span {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 10px;
+}
+
+.process_order .explan_wrap .txt_box .step_tit {
+    color: #292929;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.1em;
+    position: relative;
+    padding-bottom: 32px;
+}
+
+.process_order .explan_wrap .txt_box .step_tit::before {
+    background-color: #ffc300;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 40px;
+}
+
+.process_order .explan_wrap .txt_box .txt {
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+.process_order .explan_wrap .txt_box .ex_txt {
+    color: #009223;
+    font-size: 14px;
+    margin-top: 22px;
+}
+
+.process_order .explan_wrap .txt_box .ex_txt::before {
+    content: '※';
+    padding-right: 4px;
+}
+
+.process_order .explan_wrap .txt_box::after {
+    background: url(../images/arrow_wh_16x22.png) no-repeat 0 0;
+    content: '';
+    display: block;
+    position: absolute;
+    right: -11px;
+    top: 50%;
+    margin-top: -11px;
+    height: 22px;
+    width: 16px;
+}
+
+.process_order .explan_wrap .img {
+    position: absolute;
+    bottom: 0;
+}
+
+.process_order .explan_wrap.step1 .img {
+    right: -40px;
+}
+
+.process_order ol li.double_step {
+    height: 1010px;
+}
+
+.process_order ol li:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+.process_order .double_step .explan_wrap .txt_box {
+    width: 520px;
+    height: 330px;
+    padding-top: 50px;
+    padding-left: 60px;
+    top: 105px;
+    right: 224px;
+}
+
+.process_order .double_step .explan_wrap .txt_box:after {
+    right: 230px;
+    transform: rotate(
+90deg
+);
+    top: 100%;
+    margin-top: -8px;
+}
+
+.process_order .explan_wrap .img {
+    position: absolute;
+    bottom: 0;
+}
+
+.process_order .double_step .explan_wrap .img {
+    right: -40px;
+}
+
+.process_order .explan_wrap.step2 .txt_box {
+    right: 10px;
+}
+
+.process_order .explan_wrap.step2 .txt_box .category_tit {
+    background-color: #ff8300;
+}
+
+.process_order .explan_wrap.step2 .txt_box .category_tit::before {
+    background-image: url(../images/order_icon02.png);
+}
+
+.process_order .explan_wrap.step2 .txt_box::after {
+    right: auto;
+    left: -11px;
+    transform: rotate(
+180deg
+);
+}
+
+.process_order .explan_wrap.step2 .img {
+    left: 226px;
+}
+
+.process_order .double_step .explan_wrap.step3 .txt_box {
+    padding-top: 90px;
+    padding-left: 50px;
+    left: inherit;
+}
+
+.process_order .explan_wrap.step3 .txt_box .category_tit {
+    background-color: #9631a8;
+}
+
+.process_order .double_step .explan_wrap.step3 .txt_box .category_tit {
+    width: 520px;
+}
+
+.process_order .explan_wrap.step3 .txt_box .category_tit::before {
+    background-image: url(../images/order_icon03.png);
+}
