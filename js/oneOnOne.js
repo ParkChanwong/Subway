@@ -4,6 +4,9 @@ function changeSort2() {
     let sort1Option;
     sort1Option = sort1.options[sort1.selectedIndex].innerText;
 
+    let sort2Option;
+    sort2Option = sort2.options[sort2.selectedIndex].innerText;
+
     let subOptions = {
         customerContact: ['칭찬하기', '개선하기'],
         app: [ 'Fast-Sub_주문/결제', 'Home-Sub_주문/결제', 'Subcard', '포인트', 'e-Gift', '기타'],
@@ -18,6 +21,17 @@ function changeSort2() {
             break;
         case '앱 관련 문의':
             subOption = subOptions.app;
+            // switch(sort2Option) {
+            //     case "Fast-Sub_주문/결제":
+            //     case "Home-Sub_주문/결제":
+            //         document.getElementsByClassName('region1')[0].style.display='';
+            //         document.getElementsByClassName('date_calendar')[0].style.display='';
+            //         break;
+                
+            //
+            if(sort2Option == "Fast-Sub_주문/결제"){
+
+            }
             break;
         case '가맹 개설 문의':
             subOption = subOptions.store;
@@ -38,13 +52,14 @@ function changeSort2() {
             document.getElementsByClassName('form_select')[2].style.display = 'none';
         case "고객문의":
             document.getElementsByClassName('region1')[0].style.display='';
-            break;
-                
+            break;                
         case "마케팅 제휴/제안":
             document.getElementsByClassName('form_select')[2].style.display = 'none';
         default:
             document.getElementsByClassName('region1')[0].style.display='none';
     }
+
+    
 }
 
 
@@ -55,22 +70,21 @@ function changeRegion(){
     region1Option = region1_sort.options[region1_sort.selectedIndex].innerText;
 
     let subOptions = {
-        gyeonggi: ['고양원당', '개선하기'],
-        app: [ 'Fast-Sub_주문/결제', 'Home-Sub_주문/결제', 'Subcard', '포인트', 'e-Gift', '기타'],
-        store: ['가맹개설 신청']
+        gyeonggi: ['고양원당', '고양원흥역'],
+        busan: ['부산대역','해운대'],
+        seoul: ['가산디지털단지', '가양역']
     }
     
     let subOption=0;
-    document.getElementsByClassName('form_select')[2].style.display = 'inline-block';
     switch (region1Option) {
         case '경기도':
             subOption = subOptions.gyeonggi;
             break;
-        case '앱 관련 문의':
-            subOption = subOptions.app;
+        case '부산광역시':
+            subOption = subOptions.busan;
             break;
-        case '가맹 개설 문의':
-            subOption = subOptions.store;
+        case '서울특별시':
+            subOption = subOptions.seoul;
             break;
     }
                 
@@ -84,3 +98,4 @@ function changeRegion(){
         }
     }
 }
+
