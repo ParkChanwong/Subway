@@ -126,5 +126,9 @@
 
 .left_side .event_content_img {
     max-width: 800px;
-    
+    width: 100%;
+}
+
+.left_side .youtube_wrap {
+    width: 83%;
 }
