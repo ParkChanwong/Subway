@@ -434,6 +434,11 @@ img {
     text-indent: -9999px;
 }
 
+.utilization_subway_content .slider_wrapper .arr_controls a:hover {
+    left: 0;
+    background-position: 100% -50px;
+}
+
 #order_tip.utilization_subway_content {
     padding-top: 0;
 }

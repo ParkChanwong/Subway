@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
     $('.slider_wrapper').slick({
         centerMode: true,
         centerPadding: '60px',
@@ -25,7 +25,7 @@ $(document).ready(function(){
         ]
       });
 });
-
+*/
 
 function storeOrder(){
     $('#store_order').css("display", "block");
@@ -39,4 +39,8 @@ function orderTip(){
     $('#order_tip').css("display", "block");
     $('.tab_orderTip').addClass('active');
     $('.tab_storeOrder').removeClass('active');
+}
+
+function over(){
+    $('.arr').css("top", "50");
 }
