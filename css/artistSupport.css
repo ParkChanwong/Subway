@@ -6,20 +6,18 @@
     line-height: 120%;
 }
 .sub_header {
-    left: 0;
-    width: 100%;
-    top: 0;
-    border-bottom: 1px solid #e5e5e5;
-    height: 59px;
-    z-index: 5;
-    position: absolute;
-    background-color: transparent;
-    font-size: 16px;
-    color: #666666;
-    font-family: noto_m;
+    position:absolute; 
+    left:0; 
+    width:100%; 
+    top:0; 
+    border-bottom:1px solid #e5e5e5; 
+    height:59px; 
+    background-color:#fff; 
+    z-index:5;
     position: sticky;
     top: 0;
     left: 0;
+    font-family: noto_dl;
 }
 .content {
     max-width: 1170px;
@@ -39,7 +37,7 @@
     text-indent: -9999px;
     font-size: 0;
     line-height: 0;
-    opacity: 1;
+    opacity: 0;
     display: none;
 }
 .sub_header .sub_loc {
@@ -48,7 +46,6 @@
 .sub_header .sub_loc ul {
     overflow: hidden;
     display: inline-block;
-    list-style: none;
 }
 .sub_header .sub_loc ul li {
     float: left;
@@ -106,8 +103,7 @@
     font-family: sw_s;
     font-weight: bold;
     color: #bbbbbb;
-    font-size: 13px;
-    opacity: 1;
+    opacity: 0;
     display: none;
 }
 .sub_header .top:after {
@@ -126,35 +122,63 @@
     z-index: 3;
 }
 .sandwich_artist_wrapper {
-    padding-top: 126px;
-
+    padding-top:126px;
 }
 .sandwich_artist_wrapper .hd {
-    text-align: center;
+    text-align:center
 }
 .sandwich_artist_wrapper .hd h2 {
-    font-size: 36px;
-    font-family: sw_f;
-    font-weight: bold;
-    line-height: 46px;
-    color: #009223;
-    letter-spacing: 0px;
+    font-size:36px; 
+    font-family:sw_f; 
+    font-weight:bold; 
+    line-height:46px; 
+    color:#009223; 
+    letter-spacing:-0.005em
 }
 .sandwich_artist_wrapper .hd h2 span {
-    color: #62ce08;
-    font-size: 36px;
+    color:#62ce08;
+    font-size:36px; 
+    font-family:sw_f;
 }
 .sandwich_artist_wrapper .hd p {
-    color: #000000;
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 0px;
-    margin-top: 10px;
+    color:#000000; 
+    font-size:18px; 
+    line-height:26px; 
+    letter-spacing: -1px; 
+    margin-top:10px;
     font-family: noto_dl;
 }
 .sandwich_artist_wrapper .slider_content {
-    margin-top: 60px;
-    height: 700px;
-    overflow: hidden;
-    position: relative;
+    margin-top:60px; 
+    height:700px; 
+    overflow:hidden; 
+    position:relative;
 }
+.sandwich_artist_wrapper .slider_content .bx-pager {
+    position:absolute; 
+    left:0; 
+    width:100%; 
+    bottom:97px; 
+    text-align:center;
+}
+.sandwich_artist_wrapper .slider_content .bx-pager .bx-pager-item {
+    display:inline-block; 
+    margin:0 5px;
+}
+.sandwich_artist_wrapper .slider_content .bx-pager a {
+    display:block; 
+    width:10px; 
+    height:10px; 
+    background-color:#dddddd; 
+    font-size:0; 
+    line-height:0; 
+    text-indent:-9999px; 
+    overflow:hidden; 
+    border-radius:30px; 
+    transition-duration:0.3s;
+}
+
+
+
+
+
