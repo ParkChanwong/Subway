@@ -73,7 +73,7 @@
     font-size: 16px;
     color: #999999;
     line-height: 60px;
-    font-family: 'noto_m';
+    font-family: 'noto_dl';
     letter-spacing :-0.08em;
 }
 
@@ -96,7 +96,7 @@
     display: block;
     position: relative;
     color: #009223;
-    font-family: 'noto_b';
+    font-family: 'noto_m';
 }
 
 .faq_oneOnOne_header .active a::after {
