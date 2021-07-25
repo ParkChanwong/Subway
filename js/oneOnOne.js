@@ -1,4 +1,21 @@
+function showCal(){
+    
+    let sort2 = document.getElementsByClassName("sort2")[0];
+    let sort2Option = sort2.options[sort2.selectedIndex].innerText;
+    let calRow = document.getElementsByClassName("calRow")[0];
+    let region1 = document.getElementsByClassName('region1')[0];
+    if(sort2Option == 'Fast-Sub_주문/결제' || sort2Option == 'Home-Sub_주문/결제'){
+        calRow.style.display='';
+        region1.style.display='';
+    }else{
+        calRow.style.display='none';
+    }
+
+}
+
 function changeSort2() {
+    let calRow = document.getElementsByClassName("calRow")[0];
+    calRow.style.display='none';
     let sort1 = document.querySelector('.sort1');
     let sort2 = document.querySelector('.sort2');
     let sort1Option;
@@ -21,17 +38,6 @@ function changeSort2() {
             break;
         case '앱 관련 문의':
             subOption = subOptions.app;
-            // switch(sort2Option) {
-            //     case "Fast-Sub_주문/결제":
-            //     case "Home-Sub_주문/결제":
-            //         document.getElementsByClassName('region1')[0].style.display='';
-            //         document.getElementsByClassName('date_calendar')[0].style.display='';
-            //         break;
-                
-            //
-            if(sort2Option == "Fast-Sub_주문/결제"){
-
-            }
             break;
         case '가맹 개설 문의':
             subOption = subOptions.store;

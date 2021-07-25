@@ -359,7 +359,7 @@
                                                 </select>
                                                 </div>
                                                 <div class="form_select" style="width:200px;">
-                                                    <select class="sort2">
+                                                    <select class="sort2" onchange="showCal()">
                                                         <option>2차분류</option>
                                                     </select>
                                                 </div> 
@@ -396,12 +396,12 @@
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr style="display:none;">
+                                        <tr class="calRow" style="display:none;">
                                             <th scope="col">방문일<span class="essImg"></span></th>
                                             <td>
                                                 <div class="date_calendar">
                                                     <input class="datepicker hasDatepicker" maxlength="10" name="visitDate" type="text">
-                                                    <img src="/images/icon_calendar.gif">
+                                                    <img src="./images/icon_calendar.gif">
                                                 </div>
                                             </td>
                                         </tr>

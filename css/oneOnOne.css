@@ -661,6 +661,8 @@ select {
 .date_calendar img {
     cursor: pointer;
     position: relative;
+    vertical-align: top;
+    float: right;
 }
 
 .date_calendar:after {
