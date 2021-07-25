@@ -3,6 +3,12 @@ html,body{background-color:#fff;}
 h1,h2,h3,h4,h5,h6{font-weight:normal}
 body{font-size:16px; color:#666666; font-family:font_ns, sans-serif;}
 
+ol,ul{list-style:none}
+a{text-decoration:none; color:#333;}
+img{vertical-align:top; border:0}
+table {border-collapse: collapse; border-spacing: 0; width: 100%;}
+
+
 #container {position: relative;}
 
 .content {max-width: 1170px; margin: 0 auto; position: relative;}
@@ -36,8 +42,6 @@ body{font-size:16px; color:#666666; font-family:font_ns, sans-serif;}
 .business_info .branch_region ul li a {display: block; text-align: center; color: #999999; font-size: 16px; height: 58px; line-height: 58px; background-color: #fff;}
 .business_info .branch_region ul li.active {z-index: 3;}
 .business_info .branch_region ul li.active a {background-color: #009223; color: #fff;}
-
-table {border-collapse: collapse; border-spacing: 0; width: 100%;}
 
 .board_list table{clear:both; border-top:4px solid #009223;}
 .board_list table th{color:#009223; font-size:16px; font-weight:300; height:69px; border-bottom:1px solid #009223; text-align:center;}
