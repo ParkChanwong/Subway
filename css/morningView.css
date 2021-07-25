@@ -240,7 +240,7 @@ a {
     width: 370px;
     height: 260px;
     top: -100px;
-    right: -165px;
+    right: -300px;
     opacity: 0.5;
 }
 .menu_info .next:hover img {
@@ -273,7 +273,7 @@ a {
     width: 370px;
     height: 260px;
     top: -100px;
-    left: -165px;
+    left: -300px;
     opacity: 0.5;
 }
 .menu_info .before:hover img {
