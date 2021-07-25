@@ -103,7 +103,7 @@
     top: 0px;
     height: 32px;
     padding-top: 28px;
-    font-family: sw_s;
+    font-family: sw_f;
     font-weight: bold;
     color: #bbbbbb;
     font-size: 13px;
@@ -126,7 +126,7 @@
     z-index: 3;
 }
 .subwray_promise_wrapper {
-    padding-top:127px;
+    padding-top:77px;
 }
 .subwray_promise_wrapper .hd {
     text-align:center; 
