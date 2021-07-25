@@ -122,7 +122,7 @@
     z-index: 3;
 }
 .sandwich_artist_wrapper {
-    padding-top:126px;
+    padding-top:77px;
 }
 .sandwich_artist_wrapper .hd {
     text-align:center
@@ -133,7 +133,7 @@
     font-weight:bold; 
     line-height:46px; 
     color:#009223; 
-    letter-spacing:-0.005em
+    letter-spacing:-1px;
 }
 .sandwich_artist_wrapper .hd h2 span {
     color:#62ce08;
@@ -144,8 +144,8 @@
     color:#000000; 
     font-size:18px; 
     line-height:26px; 
-    letter-spacing: -1px; 
-    margin-top:10px;
+    letter-spacing: 0px; 
+    margin-top:20px;
     font-family: noto_dl;
 }
 .sandwich_artist_wrapper .sw_point {
@@ -161,6 +161,9 @@
     font-weight:bold; 
     margin-bottom:68px; 
     letter-spacing:-0.03em;
+    margin: 0;
+    padding: 0;
+    line-height: 120%;
 }
 .sandwich_artist_wrapper .sw_point h3 span {
     font-family:sw_f;
@@ -194,7 +197,7 @@
     text-align:center; 
     letter-spacing:-0.03em; 
     margin-bottom:57px;
-    font-family: sw_f;
+    font-family: noto_r;
 }
 .sandwich_artist_wrapper .career_path ol {
     background:url(../images/bg_career_path_line.png) 0 7px no-repeat; 
@@ -219,7 +222,7 @@
 }
 .sandwich_artist_wrapper .career_path ol li .num {
     display:block; 
-    font-family:noto_bl; 
+    font-family:sw_f; 
     font-weight:bold; 
     color:#292929; 
     font-size:18px;
@@ -309,6 +312,7 @@
     color:#292929; 
     font-size:28px; 
     font-weight:bold;
+    font-family: noto_r;
 }
 .sandwich_artist_wrapper .recruit .hd p {
     text-align:center; 
@@ -369,7 +373,7 @@
     margin:18px 0 15px 0; 
     letter-spacing:-0.03em;
     font-family: noto_dl;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 .sandwich_artist_wrapper .recruit .recruit_link .box span {
     color:#999; 
