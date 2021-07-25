@@ -394,8 +394,57 @@
 .sandwich_artist_wrapper .recruit .recruit_link .box:nth-child(3) .logo {
     background-position:-180px 0
 }
+.slider_content {
+    margin-top: 60px;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+.slider_content .bxslider .img {
+    opacity: 1;
+    transition-delay: 0.3s;
+    transition-duration: 0.45s;
+    /* margin: 0;
+    padding: 0;
+    line-height: 120%; */
+}
+.slider_content .bxslider .info {
+    opacity: 1;
+    transition-delay: 0.3s;
+    transition-duration: 0.45s;
+    top: 0;
+    text-align: center;
+    padding-top: 30px;
+    position: relative;
+    margin-top: 40px;
+}
 
-
+.slider_content .bxslider .info:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 4px;
+    width: 50px;
+    margin-left: -25px;
+    background-color: #ffc300;
+}
+.slider_content .bxslider .info strong {
+    display: block;
+    font-size: 22px;
+    color: #292929;
+    font-family: sw_f;
+    font-weight: bold;
+    letter-spacing: 0em;
+}
+.slider_content .bxslider .info p {
+    display: block;
+    font-size: 16px;
+    color: #666666;
+    line-height: 26px;
+    margin-top: 15px;
+    letter-spacing: -2px;
+}
 
 
 
