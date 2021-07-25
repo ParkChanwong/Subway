@@ -97,7 +97,6 @@ a {
     margin: 0 12px;
     vertical-align: middle;
 }
-
 .menuView_wrap .menu_header .prod_category .active{
     color: #009223;
     display: inline-block !important;
@@ -178,6 +177,7 @@ a {
     padding-left: 20px;
     margin-left: 17px;
     position: relative;
+    font-family: 'sw_s';
 }
 .menuView_wrap .menu_header ul .kcal::after{
     content: '';
@@ -226,6 +226,9 @@ a {
     height: 60px;
     line-height: 18px;
     letter-spacing: -0.02em;
+    font-weight: bold;
+    z-index: 100;
+    position: relative;
 }
 
 .menu_info .next{
@@ -239,7 +242,7 @@ a {
     width: 370px;
     height: 260px;
     top: -100px;
-    right: -370px;
+    right: -300px;
     opacity: 0.5;
 }
 .menu_info .next:hover img {
@@ -272,7 +275,7 @@ a {
     width: 370px;
     height: 260px;
     top: -100px;
-    left: -370px;
+    left: -300px;
     opacity: 0.5;
 }
 .menu_info .before:hover img {
@@ -289,11 +292,25 @@ a {
     color: #999999;
     line-height: 26px;
     margin-top: 24px;
+    font-family: 'noto_dl';
 }
 
 .stuff{
     margin-top: 46px;
     margin-bottom: 46px;
+}
+.stuff .best{
+    background-color: #009223;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .stuff ul{
@@ -324,6 +341,7 @@ a {
     letter-spacing: -0.025em;
     margin-top: 8px;
     line-height: 1.3;
+    font-weight: bold;
 }
 
 .caution ul li{
@@ -331,6 +349,7 @@ a {
     font-size: 13px;
     letter-spacing: -0.05em;
     line-height: 1.6;
+    font-family: 'noto_dl';
 }
 
 .caution p{
@@ -339,6 +358,7 @@ a {
     letter-spacing: -0.05em;
     margin-top: 10px;
     line-height: 1.6;
+    font-family: 'noto_dl';
 }
 
 .Nutrition_label{
@@ -365,6 +385,7 @@ a {
     border-top: 4px solid #009223;
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 18px;
 }
 
 .Nutrition_content table th{
@@ -383,7 +404,6 @@ a {
     font-family: 'noto_m';
 }
 .board_wrap .board_notice{
-    margin-top: 18px;
 }
 .board_wrap .board_notice li{
     color: #999;
@@ -391,16 +411,15 @@ a {
     letter-spacing: -0.05em;
     text-align: left;
     margin-top: 8px;
-    font-weight: bold;
+    font-family: 'noto_dl';
 }
 .board_wrap .board_notice li:first-child{
     margin-top: 0;
 }
-
 .button_wrap{
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -18px;
 }
 
 .button_wrap .btn{
@@ -411,18 +430,19 @@ a {
     display: inline-block;
     vertical-align: middle;
     border-radius: 30px;
+
 }
-.button_wrap .btn:hover{
-    background-color: #292929;
-}
+
 .button_wrap .btn span{
     color: #fff;
     font-size: 16px;
     height: 40px;
     line-height: 40px;
 }
-
-
+.button_wrap .btn:hover{
+    background-color: #292929;
+    transition-duration: 2s;
+}
 .three_fresh{
     margin: 97px auto 121px;
     width: 1170px;
@@ -457,8 +477,7 @@ a {
 }
 
 .three_fresh .fresh_content{
-    margin-top: 60px;
-    position: relative;
+    margin:0 auto;
 }
 .three_fresh .fresh_content ul{
     overflow: hidden;
@@ -559,6 +578,7 @@ a {
 }
 .list_btn_wrap .list_btn a:hover{
     background-color: #00811f;
+    transition-duration: 2s;
 }
 .list_btn_wrap .list_btn span{
     width: 20px;
@@ -579,7 +599,6 @@ a {
     top: 30px;
     left: 30px;
 }
-
 /* 팝업 배경 */
 .popUp_back{
     display: none;
@@ -595,9 +614,9 @@ a {
 /* 원산지 정보 팝업 */
 .contry_popUp{
     display: none;
-    font-family: 'sw_s';
+    font-family: 'noto_dl';
     position: fixed;
-    top: 10%;
+    top: 3%;
     left: 30%;
     width: 630px;
     height: 680px;
@@ -614,6 +633,7 @@ a {
     text-align: center;
     letter-spacing: -0.045em;
     padding: 35px 0 29px;
+    font-family: 'noto_l';
 }
 
 .contry_popUp .popUp_content{
@@ -687,10 +707,10 @@ a {
 /* 알레르기 정보 팝업 */
 .allergy_popUp{
     display: none;
-    font-family: 'sw_s';
+    font-family: 'noto_dl';
     position: fixed;
-    top: 10%;
-    left: 25%;
+    top: 3%;
+    left: 20%;
     width: 900px;
     height: 680px;
     background-color: #ffc300;
@@ -706,6 +726,7 @@ a {
     text-align: center;
     letter-spacing: -0.045em;
     padding: 35px 0 29px;
+    font-family: 'noto_l';
 }
 
 .allergy_popUp .popUp_content{
